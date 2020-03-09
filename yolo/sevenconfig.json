@@ -7,8 +7,8 @@
     "labels": []
   },
   "train": {
-    "train_csv": "/home/root1/PycharmProjects/seven/anns/ann.csv",
-    "classes_csv": "/home/root1/PycharmProjects/seven/anns/classes.csv",
+    "train_csv": "/home/palm/PycharmProjects/seven2/anns/ann.csv",
+    "classes_csv": "/home/palm/PycharmProjects/seven2/anns/classes.csv",
     "train_times": 10,
     "batch_size": 4,
     "opt": "sgd",
@@ -27,7 +27,7 @@
     "debug": false
   },
   "valid": {
-    "valid_csv": "/home/root1/PycharmProjects/seven/anns/val_ann.csv",
+    "valid_csv": "/home/palm/PycharmProjects/seven2/anns/val_ann.csv",
     "valid_times": 1
   }
 }
