@@ -3,14 +3,14 @@ import numpy as np
 import os
 
 N = 3
-cap = []
 path = './data1/'
 
 cap = [None] * N
-#for i i n range(N):
-cap[0] = cv2.VideoCapture(0)
-cap[1] = cv2.VideoCapture(1)
-cap[2] = cv2.VideoCapture(2)
+for i in range(N):
+    cap[i] = cv2.VideoCapture(i + 1)
+    cap[i].set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+    cap[i].set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
+
 drawing = False
 ix = [None] * N
 iy = [None] * N
@@ -31,12 +31,12 @@ def draw_rect(event, x, y, flags, i):
             drawimg[i] = img[i].copy()
             ex[i] = x
             ey[i] = y
-            #cv2.rectangle(drawimg[i], (ix[i], iy[i]), (x, y), (255, 255, 255), 1)
+            # cv2.rectangle(drawimg[i], (ix[i], iy[i]), (x, y), (255, 255, 255), 1)
     elif event == cv2.EVENT_LBUTTONUP:
         drawing = False
         ex[i] = x
         ey[i] = y
-        #cv2.rectangle(drawimg[i], (ix[i], iy[i]), (x, y), (255, 255, 255), 1)
+        # cv2.rectangle(drawimg[i], (ix[i], iy[i]), (x, y), (255, 255, 255), 1)
         if ix[i] < x and iy[i] < y:
             ix[i], ex[i], iy[i], ey[i] = ix[i], x, iy[i], y
         else:
@@ -58,7 +58,7 @@ while True:
         drawimg[i] = img[i].copy()
         cv2.rectangle(drawimg[i], (ix[i], iy[i]), (ex[i], ey[i]), (0, 0, 255), 2)
         cv2.putText(drawimg[i], class_name, (ix[i], iy[i] - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
-        cv2.imshow('img' + str(i), drawimg[i])
+        cv2.imshow('img' + str(i), cv2.resize(drawimg[i], None, None, 0.2, 0.2))
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         break
