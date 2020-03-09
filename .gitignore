@@ -1,0 +1,5 @@
+__pycache__
+yolo/__pycache__
+snapshots/
+logs/
+.idea/
