@@ -40,12 +40,13 @@ for i in range(N):
     cv2.namedWindow('img' + str(i))
     cv2.setMouseCallback('img' + str(i), draw_rect, i)
 class_name = ''
-root_directory = 'E:\Work\Garbage' #name of the folder
+root_directory = '/home/palm/PycharmProjects/seven/' #name of the folder
 source_dir = 'data1' #
+save_txt = 'data1-9-3.txt'
 img = []
 name = []
 try:
-    written = [x.split(' ')[0] for x in open('data1-30-9.txt', 'r').readlines()]
+    written = [x.split(' ')[0] for x in open(save_txt, 'r').readlines()]
 except FileNotFoundError:
     written = []
 for subdir in os.listdir(os.path.join(root_directory, source_dir)):
@@ -68,14 +69,17 @@ for subdir in os.listdir(os.path.join(root_directory, source_dir)):
                 drawimg[i] = img[i].copy()
                 cv2.rectangle(drawimg[i], (ix[i], iy[i]), (ex[i], ey[i]), (0, 0, 255), 2)
                 cv2.putText(drawimg[i], class_name, (ix[i], iy[i] - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
-                cv2.imshow('img' + str(i), drawimg[i])
+                cv2.imshow('img' + str(i), cv2.resize(drawimg[i], None, None, 0.2, 0.2))
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q'):
                 cv2.destroyAllWindows()
                 raise SystemExit
+            if key == ord('r'):
+                ix[i], iy[i] = 0, 0
+                ex[i], ey[i] = 0, 0
             if key == ord('s'):
                 img = []
-                with open('data1-30-9-gs.txt', 'a') as f:
+                with open(save_txt, 'a') as f:
                     for i in range(N):
                         f.write('%s %d %d %d %d\n' % (name[i],
                                                       ix[i], iy[i], ex[i], ey[i]))

@@ -31,7 +31,6 @@ if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
     __package__ = "retinanet.bin"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 # Change these to absolute imports if you copy this script outside the keras_retinanet package.
 from .. import losses
 from .. import models
@@ -410,8 +409,8 @@ def parse_args(args):
     parser.add_argument('--multi-gpu', help='Number of GPUs to use for parallel processing.', type=int, default=0)
     parser.add_argument('--multi-gpu-force', help='Extra flag needed to enable (experimental) multi-gpu support.',
                         action='store_true')
-    parser.add_argument('--epochs', help='Number of epochs to train.', type=int, default=50)
-    parser.add_argument('--steps', help='Number of steps per epoch.', type=int, default=10000)
+    parser.add_argument('--epochs', help='Number of epochs to train.', type=int, default=5)
+    parser.add_argument('--steps', help='Number of steps per epoch.', type=int, default=3000)
     parser.add_argument('--lr', help='Learning rate.', type=float, default=1e-5)
     parser.add_argument('--snapshot-path',
                         help='Path to store snapshots of models during training (defaults to \'./snapshots\')',
@@ -434,7 +433,7 @@ def parse_args(args):
     # Fit generator arguments
     parser.add_argument('--workers',
                         help='Number of multiprocessing workers. To disable multiprocessing, set workers to 0',
-                        type=int, default=1)
+                        type=int, default=4)
     parser.add_argument('--max-queue-size', help='Queue length for multiprocessing workers in fit generator.', type=int,
                         default=10)
 
@@ -526,7 +525,7 @@ def main(args=None):
         workers=args.workers,
         use_multiprocessing=use_multiprocessing,
         max_queue_size=args.max_queue_size,
-        initial_epoch=len(os.listdir(args.snapshot_path))
+        # initial_epoch=len(os.listdir(args.snapshot_path))
     )
 
 
