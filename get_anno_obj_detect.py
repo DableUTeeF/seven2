@@ -8,6 +8,7 @@ path = './data1/'
 cap = [None] * N
 for i in range(N):
     cap[i] = cv2.VideoCapture(i + 1)
+    cap[i].set(28, 5)
     cap[i].set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
     cap[i].set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
@@ -47,8 +48,8 @@ for i in range(N):
     cv2.namedWindow('img' + str(i))
     cv2.setMouseCallback('img' + str(i), draw_rect, i)
 
-class_name = '0'
-class_num = 0
+class_name = '1'
+class_num = 1
 while True:
     img = [None] * N
     drawimg = [None] * N
@@ -58,7 +59,7 @@ while True:
         drawimg[i] = img[i].copy()
         cv2.rectangle(drawimg[i], (ix[i], iy[i]), (ex[i], ey[i]), (0, 0, 255), 2)
         cv2.putText(drawimg[i], class_name, (ix[i], iy[i] - 10), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
-        cv2.imshow('img' + str(i), cv2.resize(drawimg[i], None, None, 0.2, 0.2))
+        cv2.imshow('img' + str(i), cv2.resize(drawimg[i], None, None, 0.3, 0.3))
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         break
