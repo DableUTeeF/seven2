@@ -1,1 +1,26 @@
-<annotation><filename>1561.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1561.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>382</xmin><ymin>802</ymin><xmax>786</xmax><ymax>1362</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>1561.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/1561.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>obj</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>392</xmin>
+			<ymin>802</ymin>
+			<xmax>796</xmax>
+			<ymax>1362</ymax>
+		</bndbox>
+	</object>
+</annotation>

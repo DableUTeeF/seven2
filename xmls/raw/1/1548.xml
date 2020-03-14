@@ -1,1 +1,38 @@
-<annotation><filename>1548.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1548.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>381</xmin><ymin>937</ymin><xmax>592</xmax><ymax>1262</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>607</xmin><ymin>15</ymin><xmax>984</xmax><ymax>441</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>1548.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/1548.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>obj</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>375</xmin>
+			<ymin>947</ymin>
+			<xmax>586</xmax>
+			<ymax>1272</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>obj</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>919</ymin>
+			<xmax>366</xmax>
+			<ymax>1299</ymax>
+		</bndbox>
+	</object>
+</annotation>
