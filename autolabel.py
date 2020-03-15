@@ -12,7 +12,7 @@ from xml.etree import cElementTree as ET
 if __name__ == '__main__':
     labels_to_names = {0: 'obj'}
     prediction_model = models.load_model('/home/palm/PycharmProjects/seven2/snapshots/infer_model_temp.h5')
-    for set_name in range(3):
+    for set_name in [3]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         anns_path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
         exiting_anns = [os.path.basename(x) for x in os.listdir(anns_path)]
