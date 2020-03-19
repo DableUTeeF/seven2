@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>285.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/285.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/285.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Break SUPA 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -24,14 +24,14 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus pink 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>446</xmin>
+			<xmin>443</xmin>
 			<ymin>543</ymin>
-			<xmax>804</xmax>
+			<xmax>801</xmax>
 			<ymax>942</ymax>
 		</bndbox>
 	</object>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Jolly bear 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -84,15 +84,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus yellow 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>810</xmin>
-			<ymin>556</ymin>
+			<ymin>553</ymin>
 			<xmax>1080</xmax>
-			<ymax>1073</ymax>
+			<ymax>1070</ymax>
 		</bndbox>
 	</object>
 </annotation>

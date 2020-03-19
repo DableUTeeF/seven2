@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>46.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/46.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/46.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,19 +24,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 62.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>140</xmin>
-			<ymin>309</ymin>
-			<xmax>350</xmax>
-			<ymax>977</ymax>
+			<xmin>136</xmin>
+			<ymin>312</ymin>
+			<xmax>346</xmax>
+			<ymax>980</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Break 23.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,19 +48,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_bar</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>450</xmin>
-			<ymin>721</ymin>
+			<ymin>718</ymin>
 			<xmax>1068</xmax>
-			<ymax>1311</ymax>
+			<ymax>1308</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kitkat green tea 35g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>12.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/12.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/12.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Kitkat thai tea</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,19 +24,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Take-it Black</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>174</xmin>
+			<xmin>172</xmin>
 			<ymin>777</ymin>
-			<xmax>634</xmax>
+			<xmax>632</xmax>
 			<ymax>1197</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kitkat green tea 35g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Take-it Red</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kitkat red 35g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

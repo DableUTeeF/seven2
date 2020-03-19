@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>165.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/165.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/165.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,19 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Jolly bear 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>351</xmin>
-			<ymin>739</ymin>
-			<xmax>958</xmax>
-			<ymax>1427</ymax>
+			<xmin>354</xmin>
+			<ymin>736</ymin>
+			<xmax>961</xmax>
+			<ymax>1424</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Jolly cola 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

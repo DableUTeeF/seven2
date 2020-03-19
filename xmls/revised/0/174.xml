@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>174.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/174.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/174.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Jolly bear 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

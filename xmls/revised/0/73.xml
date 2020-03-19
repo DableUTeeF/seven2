@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>73.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/73.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/73.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,31 +12,31 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>739</ymin>
-			<xmax>344</xmax>
-			<ymax>1107</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>obj</name>
+		<name>Halls honey 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>296</xmin>
-			<ymin>393</ymin>
-			<xmax>660</xmax>
-			<ymax>753</ymax>
+			<xmin>5</xmin>
+			<ymin>736</ymin>
+			<xmax>348</xmax>
+			<ymax>1104</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls mentho-lyptus 22.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>400</ymin>
+			<xmax>647</xmax>
+			<ymax>760</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Halls rasp 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,26 +48,26 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Hershey's creamy milk 40g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>406</xmin>
-			<ymin>971</ymin>
+			<ymin>964</ymin>
 			<xmax>1080</xmax>
-			<ymax>1627</ymax>
+			<ymax>1620</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus stick 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>108</xmin>
+			<xmin>98</xmin>
 			<ymin>1237</ymin>
-			<xmax>384</xmax>
+			<xmax>374</xmax>
 			<ymax>1465</ymax>
 		</bndbox>
 	</object>

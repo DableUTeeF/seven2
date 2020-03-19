@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>61.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/61.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/61.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,31 +12,31 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Abacus pink 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>616</xmin>
-			<ymin>625</ymin>
-			<xmax>946</xmax>
-			<ymax>927</ymax>
+			<xmin>539</xmin>
+			<ymin>576</ymin>
+			<xmax>869</xmax>
+			<ymax>878</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus yellow 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>298</xmin>
+			<xmin>295</xmin>
 			<ymin>959</ymin>
-			<xmax>654</xmax>
+			<xmax>651</xmax>
 			<ymax>1321</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_Fried_56G</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus stick 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -60,15 +60,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_bar</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>941</ymin>
-			<xmax>256</xmax>
-			<ymax>1115</ymax>
+			<ymin>948</ymin>
+			<xmax>255</xmax>
+			<ymax>1122</ymax>
 		</bndbox>
 	</object>
 </annotation>

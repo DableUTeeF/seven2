@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>79.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/79.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/79.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Milo choco bar 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,19 +24,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
+			<xmin>4</xmin>
 			<ymin>1088</ymin>
-			<xmax>418</xmax>
+			<xmax>421</xmax>
 			<ymax>1425</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Milo nuggets 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls mentho-lyptus 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,19 +60,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_bar</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>565</ymin>
-			<xmax>576</xmax>
+			<xmax>575</xmax>
 			<ymax>853</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls rasp 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -84,7 +84,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls honey 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

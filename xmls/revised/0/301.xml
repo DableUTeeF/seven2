@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>301.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/301.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/301.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -48,19 +48,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Birdy robusta can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>438</xmin>
-			<ymin>1119</ymin>
-			<xmax>1012</xmax>
-			<ymax>1483</ymax>
+			<xmin>435</xmin>
+			<ymin>1116</ymin>
+			<xmax>1009</xmax>
+			<ymax>1480</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Oreo original 29.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -72,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

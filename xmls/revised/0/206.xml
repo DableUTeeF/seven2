@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>206.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/206.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/206.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>324</xmin>
-			<ymin>729</ymin>
+			<ymin>726</ymin>
 			<xmax>1080</xmax>
-			<ymax>1395</ymax>
+			<ymax>1392</ymax>
 		</bndbox>
 	</object>
 	<object>

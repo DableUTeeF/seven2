@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>102.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/102.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/102.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Break 23.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kitkat green tea 35g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Hershey's creamy milk 40g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,15 +60,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Milo choco bar 15g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>232</xmin>
-			<ymin>1</ymin>
+			<ymin>4</ymin>
 			<xmax>808</xmax>
-			<ymax>237</ymax>
+			<ymax>240</ymax>
 		</bndbox>
 	</object>
 </annotation>

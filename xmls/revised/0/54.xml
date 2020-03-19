@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>54.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/54.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/54.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,55 +12,55 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Mentos mint 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>545</ymin>
-			<xmax>146</xmax>
+			<xmax>145</xmax>
 			<ymax>1082</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Mentos sour mix 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>82</xmin>
+			<xmin>75</xmin>
 			<ymin>845</ymin>
-			<xmax>466</xmax>
+			<xmax>459</xmax>
 			<ymax>1265</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>M&amp;M peanut 40g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>360</xmin>
-			<ymin>933</ymin>
-			<xmax>1014</xmax>
-			<ymax>1559</ymax>
+			<xmin>357</xmin>
+			<ymin>929</ymin>
+			<xmax>1011</xmax>
+			<ymax>1555</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Mentos fruit 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>368</xmin>
+			<xmin>364</xmin>
 			<ymin>487</ymin>
-			<xmax>918</xmax>
+			<xmax>914</xmax>
 			<ymax>967</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_Fried_56G</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

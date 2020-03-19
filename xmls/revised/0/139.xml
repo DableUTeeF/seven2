@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>139.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/139.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/139.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Abacus stick 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Mentos sour mix 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,15 +36,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Mentos mint 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>631</xmin>
-			<ymin>369</ymin>
-			<xmax>766</xmax>
-			<ymax>853</ymax>
+			<xmin>640</xmin>
+			<ymin>356</ymin>
+			<xmax>775</xmax>
+			<ymax>840</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Mentos fruit 37g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

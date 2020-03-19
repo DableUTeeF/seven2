@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>312.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/312.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/312.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,19 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Birdy robusta can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>973</ymin>
-			<xmax>582</xmax>
+			<xmax>581</xmax>
 			<ymax>1317</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

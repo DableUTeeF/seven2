@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>78.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/78.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/78.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Halls rasp 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,19 +36,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls mentho-lyptus 22.4g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>684</xmin>
-			<ymin>18</ymin>
-			<xmax>1080</xmax>
-			<ymax>663</ymax>
+			<xmin>681</xmin>
+			<ymin>22</ymin>
+			<xmax>1077</xmax>
+			<ymax>667</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Halls honey 22.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

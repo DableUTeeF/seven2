@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>36.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/36.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/36.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,27 +24,27 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Break SUPA 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>482</xmin>
-			<ymin>891</ymin>
+			<ymin>887</ymin>
 			<xmax>1080</xmax>
-			<ymax>1595</ymax>
+			<ymax>1591</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Break 23.5g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>734</xmin>
-			<ymin>293</ymin>
-			<xmax>1080</xmax>
-			<ymax>1042</ymax>
+			<xmin>730</xmin>
+			<ymin>290</ymin>
+			<xmax>1076</xmax>
+			<ymax>1039</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kitkat green tea 35g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -72,7 +72,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

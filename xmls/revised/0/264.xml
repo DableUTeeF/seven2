@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>264.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/264.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/264.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Koko_krunch_box_25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>939</ymin>
-			<xmax>539</xmax>
-			<ymax>1393</ymax>
+			<ymin>936</ymin>
+			<xmax>538</xmax>
+			<ymax>1390</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Pocky strawberry 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kellogg's corn flakes 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Pocky cookie and cream 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>148.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/148.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/148.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 62.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,19 +36,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 100g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>12</xmin>
+			<xmin>8</xmin>
 			<ymin>945</ymin>
-			<xmax>740</xmax>
+			<xmax>736</xmax>
 			<ymax>1558</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

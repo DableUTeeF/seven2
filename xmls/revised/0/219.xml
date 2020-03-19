@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>219.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/219.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/219.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,14 +12,14 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Milo serials box 25g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>358</xmin>
+			<xmin>355</xmin>
 			<ymin>124</ymin>
-			<xmax>1080</xmax>
+			<xmax>1077</xmax>
 			<ymax>818</ymax>
 		</bndbox>
 	</object>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Moccona Trio Gold 100g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Kellogg's corn flakes 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

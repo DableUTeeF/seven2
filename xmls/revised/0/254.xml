@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>254.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/254.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/254.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Pocky cookie and cream 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -24,19 +24,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Pocky macha 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>39</xmin>
-			<ymin>390</ymin>
-			<xmax>565</xmax>
-			<ymax>667</ymax>
+			<xmin>35</xmin>
+			<ymin>387</ymin>
+			<xmax>561</xmax>
+			<ymax>664</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Pocky chocolate 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

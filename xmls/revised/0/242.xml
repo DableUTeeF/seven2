@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>242.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/242.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/242.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Nescafe_blend'nbrew_rich_aroma_157.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Moccona Trio rich and smooth 90g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Birdy 3 in 1 robusta 62g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

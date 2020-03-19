@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>66.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/66.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/66.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,19 +24,19 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus yellow 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>266</xmin>
-			<ymin>971</ymin>
-			<xmax>604</xmax>
-			<ymax>1357</ymax>
+			<xmin>263</xmin>
+			<ymin>968</ymin>
+			<xmax>601</xmax>
+			<ymax>1354</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Abacus stick 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_Fried_56G</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

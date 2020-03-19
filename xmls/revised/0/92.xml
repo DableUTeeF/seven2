@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>92.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/92.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/92.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,43 +12,43 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Milo choco bar 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>539</xmin>
-			<ymin>935</ymin>
+			<ymin>932</ymin>
 			<xmax>1014</xmax>
-			<ymax>1697</ymax>
+			<ymax>1694</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Hershey's creamy milk 40g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>599</ymin>
-			<xmax>458</xmax>
+			<xmax>457</xmax>
 			<ymax>886</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Milo nuggets 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>853</ymin>
+			<ymin>850</ymin>
 			<xmax>541</xmax>
-			<ymax>1560</ymax>
+			<ymax>1557</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Almond_bar</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Ferrero 37.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

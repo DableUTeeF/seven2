@@ -1,1 +1,38 @@
-<annotation><filename>164.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/164.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>330</xmin><ymin>798</ymin><xmax>1064</xmax><ymax>1437</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>0</xmin><ymin>729</ymin><xmax>360</xmax><ymax>1240</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>0</folder>
+	<filename>164.jpg</filename>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/164.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Jolly bear 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>330</xmin>
+			<ymin>798</ymin>
+			<xmax>1064</xmax>
+			<ymax>1437</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>729</ymin>
+			<xmax>360</xmax>
+			<ymax>1240</ymax>
+		</bndbox>
+	</object>
+</annotation>

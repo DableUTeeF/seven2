@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>182.jpg</filename>
-	<path>/home/palm/PycharmProjects/seven/data1/0/182.jpg</path>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/182.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,19 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Moccona Trio rich and smooth 90g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>204</xmin>
+			<xmin>201</xmin>
 			<ymin>682</ymin>
-			<xmax>1005</xmax>
+			<xmax>1002</xmax>
 			<ymax>1293</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Jolly cola 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,15 +48,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Jolly bear 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>596</ymin>
+			<ymin>592</ymin>
 			<xmax>255</xmax>
-			<ymax>877</ymax>
+			<ymax>873</ymax>
 		</bndbox>
 	</object>
 </annotation>
