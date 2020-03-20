@@ -39,7 +39,7 @@ if __name__ == '__main__':
                   metric=None,
                   device='cuda')
     model.load_weights('./snapshots/base.pth', load_opt=False)
-    model.model = nn.DataParallel(model.model)
+    # model.model = nn.DataParallel(model.model)
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
                                                                transforms.RandomVerticalFlip(),
                                                                transforms.ToTensor(),
                                                                normalize]))
-    train_generator = train_datagen.get_dset(8*2, 1)
+    train_generator = train_datagen.get_dset(8, 1)
     os.makedirs(f'./snapshots/pairs/{save_no}', exist_ok=True)
     try:
         h = model.fit_generator(train_generator, 20,
