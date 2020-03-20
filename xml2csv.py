@@ -34,7 +34,7 @@ if __name__ == '__main__':
                     if 'path' in elem.tag:
                         impath = elem.text
                     if 'object' in elem.tag:
-                        if cls != '' and cls != 'obj' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
+                        if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
                                 with open('anns/c.csv', 'a') as cwr:
                                     cwr.write(f'{cls},{len(classes)}\n')
@@ -57,7 +57,7 @@ if __name__ == '__main__':
                         xmax = elem.text
                     elif 'ymax' in elem.tag:
                         ymax = elem.text
-                if cls != 'obj':
+                if 1:#cls != 'obj':
                     if cls not in classes:
                         with open('anns/c.csv', 'a') as cwr:
                             cwr.write(f'{cls},{len(classes)}\n')

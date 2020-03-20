@@ -11,6 +11,8 @@ if __name__ == '__main__':
     save_path = '/home/palm/PycharmProjects/seven/images/cropped'
     for instance in train_ints:
         image = cv2.imread(instance['filename'])
+        if image is None:
+            continue
         for idx, obj in enumerate(instance['object']):
             x1 = max(0, obj['xmin'])
             x2 = min(image.shape[1], obj['xmax'])
@@ -25,6 +27,6 @@ if __name__ == '__main__':
             cropped_image = image[y1:y2, x1:x2]
             if '134.jpg' in instance['filename']:
                 print()
-            os.makedirs(os.path.join(save_path, 'train', obj['name']), exist_ok=True)
-            cv2.imwrite(os.path.join(save_path, 'train', obj['name'], str(idx) + os.path.basename(instance['filename'])),
+            os.makedirs(os.path.join(save_path, 'unknown', obj['name']), exist_ok=True)
+            cv2.imwrite(os.path.join(save_path, 'unknown', obj['name'], str(idx) + os.path.basename(instance['filename'])),
                         cropped_image)

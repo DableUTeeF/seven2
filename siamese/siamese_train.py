@@ -50,10 +50,12 @@ if __name__ == '__main__':
                                                                normalize]))
     train_generator = train_datagen.get_dset(8, 1)
     os.makedirs(f'/home/palm/PycharmProjects/seven2/snapshots/pairs/{save_no}', exist_ok=True)
-    h = model.fit_generator(train_generator, 20,
-                            schedule=[10, 15],
-                            tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
-                            epoch_end=model.checkpoint(f'/home/palm/PycharmProjects/seven2/snapshots/pairs/{save_no}', 'val_ContrastiveLoss'))
-    model.save_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs_temp.pth')
-    with open('siamese.json', 'w') as wr:
-        json.dump(h, wr)
+    try:
+        h = model.fit_generator(train_generator, 20,
+                                schedule=[10, 15],
+                                tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
+                                epoch_end=model.checkpoint(f'/home/palm/PycharmProjects/seven2/snapshots/pairs/{save_no}', 'ContrastiveLoss'))
+        with open('siamese.json', 'w') as wr:
+            json.dump(h, wr)
+    finally:
+        model.save_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs_temp.pth')
