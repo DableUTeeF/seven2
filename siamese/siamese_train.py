@@ -30,7 +30,7 @@ class ThresholdAcc:
 if __name__ == '__main__':
     save_no = len(os.listdir('./snapshots/pairs'))
     impath = 'images/cropped2/train'
-    model = Model(nn.DataParallel(ResNet(zero_init_residual=False)))
+    model = Model(ResNet(zero_init_residual=False))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
                                   momentum=0.9,
@@ -39,7 +39,7 @@ if __name__ == '__main__':
                   metric=None,
                   device='cuda')
     model.load_weights('./snapshots/base.pth', load_opt=False)
-
+    model.model = nn.DataParallel(model.model)
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
