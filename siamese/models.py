@@ -214,17 +214,6 @@ class ResNet(nn.Module):
         x = self.fc(x)
         return x
 
-    def forward_once(self, x):
-        out = self.bn1(self.conv1(x))
-        out = F.relu(out)
-        out = self.layer1(out)
-        out = self.layer2(out)
-        out = self.layer3(out)
-        out = F.adaptive_avg_pool2d(out, (1, 1))
-        out = out.view(out.size(0), -1)
-        out = self.linear(out)
-        return out
-
     def forward(self, inputs):
         image_a, image_b = inputs[:, 0], inputs[:, 1]
         output1 = self._forward_impl(image_a)

@@ -41,7 +41,7 @@ if __name__ == '__main__':
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
-    train_datagen = DirectorySiameseLoader('/home/palm/PycharmProjects/seven/images/cropped/train',
+    train_datagen = DirectorySiameseLoader('/home/palm/PycharmProjects/seven/images/cropped2/train',
                                            transforms.Compose([transforms.Resize(256),
                                                                transforms.RandomResizedCrop(224),
                                                                transforms.RandomHorizontalFlip(),
