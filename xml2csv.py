@@ -13,9 +13,9 @@ if __name__ == '__main__':
     open('anns/c.csv', 'w')
     classes = []
     with open('anns/ann.csv', 'w') as wr:
-        for set_name in [0, 1]:
-            folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
-            path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
+        for set_name in [0]:
+            folder = f'/home/root1/dataset-2020/seven/images/{set_name}'
+            path = f'/home/root1/PycharmProjects/seven/xmls/revised/{set_name}'
             for file in os.listdir(path):
                 val = False
                 if check_bad(file):
