@@ -27,7 +27,7 @@ class ThresholdAcc:
 
 if __name__ == '__main__':
     save_no = len(os.listdir('./snapshots/pairs'))
-    impath = '/home/palm/PycharmProjects/seven/images/cropped2/train'
+    impath = 'images/cropped2/train'
     model = Model(ResNet(zero_init_residual=False))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
