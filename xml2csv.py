@@ -34,7 +34,7 @@ if __name__ == '__main__':
                     if 'path' in elem.tag:
                         impath = elem.text
                         if 'nattakarnp' in impath:
-                            impath.replace('/Users/nattakarnp/Desktop/seven/', '/home/root1/dataset-2020/seven/')
+                            impath = impath.replace('/Users/nattakarnp/Desktop/seven/', '/home/root1/dataset-2020/seven/')
                     if 'object' in elem.tag:
                         if cls != '' and cls != 'obj' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
