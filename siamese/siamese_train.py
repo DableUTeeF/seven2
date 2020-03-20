@@ -1,4 +1,5 @@
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,2"
 import sys
 
 # noinspection PyUnboundLocalVariable
@@ -12,6 +13,7 @@ import torch
 from torch.nn import functional as F
 from natthaphon import Model
 from torchvision import transforms
+from torch import nn
 
 
 class ThresholdAcc:
@@ -28,7 +30,7 @@ class ThresholdAcc:
 if __name__ == '__main__':
     save_no = len(os.listdir('./snapshots/pairs'))
     impath = 'images/cropped2/train'
-    model = Model(ResNet(zero_init_residual=False))
+    model = Model(nn.DataParallel(ResNet(zero_init_residual=False)))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
                                   momentum=0.9,
@@ -48,7 +50,7 @@ if __name__ == '__main__':
                                                                transforms.RandomVerticalFlip(),
                                                                transforms.ToTensor(),
                                                                normalize]))
-    train_generator = train_datagen.get_dset(8, 1)
+    train_generator = train_datagen.get_dset(8*2, 1)
     os.makedirs(f'./snapshots/pairs/{save_no}', exist_ok=True)
     try:
         h = model.fit_generator(train_generator, 20,
