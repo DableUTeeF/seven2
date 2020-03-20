@@ -26,8 +26,8 @@ class ThresholdAcc:
 
 
 if __name__ == '__main__':
-    save_no = len(os.listdir('/home/palm/PycharmProjects/seven2/snapshots/pairs'))
-
+    save_no = len(os.listdir('./snapshots/pairs'))
+    impath = '/home/palm/PycharmProjects/seven/images/cropped2/train'
     model = Model(ResNet(zero_init_residual=False))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
@@ -36,12 +36,12 @@ if __name__ == '__main__':
                   ContrastiveLoss(),
                   metric=None,
                   device='cuda')
-    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/base.pth', load_opt=False)
+    model.load_weights('./snapshots/base.pth', load_opt=False)
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
-    train_datagen = DirectorySiameseLoader('/home/palm/PycharmProjects/seven/images/cropped2/train',
+    train_datagen = DirectorySiameseLoader(impath,
                                            transforms.Compose([transforms.Resize(256),
                                                                transforms.RandomResizedCrop(224),
                                                                transforms.RandomHorizontalFlip(),
@@ -49,13 +49,13 @@ if __name__ == '__main__':
                                                                transforms.ToTensor(),
                                                                normalize]))
     train_generator = train_datagen.get_dset(8, 1)
-    os.makedirs(f'/home/palm/PycharmProjects/seven2/snapshots/pairs/{save_no}', exist_ok=True)
+    os.makedirs(f'./snapshots/pairs/{save_no}', exist_ok=True)
     try:
         h = model.fit_generator(train_generator, 20,
                                 schedule=[10, 15],
                                 tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
-                                epoch_end=model.checkpoint(f'/home/palm/PycharmProjects/seven2/snapshots/pairs/{save_no}', 'ContrastiveLoss'))
+                                epoch_end=model.checkpoint(f'./snapshots/pairs/{save_no}', 'ContrastiveLoss'))
         with open('siamese.json', 'w') as wr:
             json.dump(h, wr)
     finally:
-        model.save_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs_temp.pth')
+        model.save_weights('./snapshots/pairs_temp.pth')

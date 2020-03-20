@@ -4,11 +4,11 @@ import os
 
 if __name__ == '__main__':
     train_ints, valid_ints, labels, max_box_per_image = create_csv_training_instances(
-        '/home/palm/PycharmProjects/seven2/anns/ann.csv',
-        '/home/palm/PycharmProjects/seven2/anns/val_ann.csv',
-        '/home/palm/PycharmProjects/seven2/anns/c.csv',
+        'anns/ann.csv',
+        'anns/val_ann.csv',
+        'anns/c.csv',
     )
-    save_path = '/home/palm/PycharmProjects/seven/images/cropped2'
+    save_path = 'images/cropped2'
     for instance in train_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):
