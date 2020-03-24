@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>2225.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\golf_13-03\3\2225.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sofy cooling fresh superslim 6 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>454</xmin>
+			<ymin>913</ymin>
+			<xmax>802</xmax>
+			<ymax>1261</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Latex glue 3.5oz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>196</xmin>
+			<ymin>1071</ymin>
+			<xmax>394</xmax>
+			<ymax>1250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pentel soft erasor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>591</ymin>
+			<xmax>662</xmax>
+			<ymax>796</ymax>
+		</bndbox>
+	</object>
+</annotation>

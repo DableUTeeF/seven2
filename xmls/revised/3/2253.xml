@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>2253.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\golf_13-03\3\2253.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Daiwa dishwashing liquid lemon 160ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>720</xmin>
+			<ymin>955</ymin>
+			<xmax>1080</xmax>
+			<ymax>1788</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pentel soft erasor</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1134</ymin>
+			<xmax>295</xmax>
+			<ymax>1476</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Latex glue 3.5oz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>501</xmin>
+			<ymin>1249</ymin>
+			<xmax>747</xmax>
+			<ymax>1640</ymax>
+		</bndbox>
+	</object>
+</annotation>

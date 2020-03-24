@@ -13,7 +13,7 @@ if __name__ == '__main__':
     open('anns/c.csv', 'w')
     classes = []
     with open('anns/ann.csv', 'w') as wr:
-        for set_name in [0]:
+        for set_name in [0, 1, 3]:
             folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
             path = f'./xmls/revised/{set_name}'
             for file in os.listdir(path):
@@ -33,8 +33,12 @@ if __name__ == '__main__':
                 for elem in tree.iter():
                     if 'path' in elem.tag:
                         impath = elem.text
-                        if 'nattakarnp' in impath:
-                            impath = impath.replace('/Users/nattakarnp/Desktop/seven/images', '/home/palm/PycharmProjects/seven/data1')
+                        if 'palm' not in impath:
+                            if '\\' in impath:
+                                basename = impath.split('\\')[-1]
+                            else:
+                                basename = os.path.basename(impath)
+                            impath = os.path.join('/home/palm/PycharmProjects/seven/data1', str(set_name), basename)
                     if 'object' in elem.tag:
                         if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
@@ -53,6 +57,7 @@ if __name__ == '__main__':
                         cls = elem.text
                         if cls == 'Almond_bar':
                             cls = 'United Almond 19g'
+                        cls = 'obj'
                     elif 'xmin' in elem.tag:
                         xmin = elem.text
                     elif 'ymin' in elem.tag:
