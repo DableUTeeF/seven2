@@ -14,8 +14,8 @@ if __name__ == '__main__':
     classes = []
     with open('anns/ann.csv', 'w') as wr:
         for set_name in [0]:
-            folder = f'/home/root1/dataset-2020/seven/images/{set_name}'
-            path = f'/home/root1/PycharmProjects/seven/xmls/revised/{set_name}'
+            folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
+            path = f'./xmls/revised/{set_name}'
             for file in os.listdir(path):
                 val = False
                 if check_bad(file):
@@ -34,9 +34,9 @@ if __name__ == '__main__':
                     if 'path' in elem.tag:
                         impath = elem.text
                         if 'nattakarnp' in impath:
-                            impath = impath.replace('/Users/nattakarnp/Desktop/seven/', '/home/root1/dataset-2020/seven/')
+                            impath = impath.replace('/Users/nattakarnp/Desktop/seven/images', '/home/palm/PycharmProjects/seven/data1')
                     if 'object' in elem.tag:
-                        if cls != '' and cls != 'obj' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
+                        if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
                                 with open('anns/c.csv', 'a') as cwr:
                                     cwr.write(f'{cls},{len(classes)}\n')
@@ -61,7 +61,7 @@ if __name__ == '__main__':
                         xmax = elem.text
                     elif 'ymax' in elem.tag:
                         ymax = elem.text
-                if cls != 'obj':
+                if 1: # cls != 'obj':
                     if cls not in classes:
                         with open('anns/c.csv', 'a') as cwr:
                             cwr.write(f'{cls},{len(classes)}\n')

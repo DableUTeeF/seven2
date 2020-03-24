@@ -1,1 +1,50 @@
-<annotation><filename>1992.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/3/1992.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>254</xmin><ymin>825</ymin><xmax>906</xmax><ymax>1288</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>47</xmin><ymin>813</ymin><xmax>355</xmax><ymax>1257</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>74</xmin><ymin>839</ymin><xmax>587</xmax><ymax>1288</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>3</folder>
+	<filename>1992.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3/1992.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Protractor ruler</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>292</xmin>
+			<ymin>860</ymin>
+			<xmax>669</xmax>
+			<ymax>1252</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Darlie green</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>848</ymin>
+			<xmax>334</xmax>
+			<ymax>1250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lancer wave 0.5mm 2CT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>483</xmin>
+			<ymin>946</ymin>
+			<xmax>990</xmax>
+			<ymax>1297</ymax>
+		</bndbox>
+	</object>
+</annotation>

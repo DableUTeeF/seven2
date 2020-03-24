@@ -1,1 +1,50 @@
-<annotation><filename>1952.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/3/1952.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>524</xmin><ymin>1119</ymin><xmax>881</xmax><ymax>1740</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>301</xmin><ymin>962</ymin><xmax>807</xmax><ymax>1140</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>0</xmin><ymin>49</ymin><xmax>715</xmax><ymax>554</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>3</folder>
+	<filename>1952.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3/1952.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Elephant power glues 3g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>1187</ymin>
+			<xmax>864</xmax>
+			<ymax>1711</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Quantum gelo plus 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>258</xmin>
+			<ymin>992</ymin>
+			<xmax>813</xmax>
+			<ymax>1126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Protractor ruler</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>1243</ymin>
+			<xmax>490</xmax>
+			<ymax>1746</ymax>
+		</bndbox>
+	</object>
+</annotation>
