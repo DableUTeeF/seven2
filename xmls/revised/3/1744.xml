@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1744.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\0\1744.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ferrero 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>1166</ymin>
+			<xmax>480</xmax>
+			<ymax>1719</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ferrero 62.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>504</xmin>
+			<ymin>398</ymin>
+			<xmax>1002</xmax>
+			<ymax>1400</ymax>
+		</bndbox>
+	</object>
+</annotation>

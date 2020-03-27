@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1064.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\0\1064.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Paprika 32g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>532</ymin>
+			<xmax>476</xmax>
+			<ymax>1303</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Tonggarden salted broad beans 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>868</ymin>
+			<xmax>1080</xmax>
+			<ymax>1791</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,1 +1,1 @@
-<annotation><filename>662.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/662.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>170</xmin><ymin>560</ymin><xmax>721</xmax><ymax>1418</ymax></bndbox></object></annotation>
+<annotation><filename>662.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/662.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>74</xmin><ymin>587</ymin><xmax>728</xmax><ymax>1515</ymax></bndbox></object></annotation>

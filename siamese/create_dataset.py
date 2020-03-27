@@ -14,7 +14,7 @@ if __name__ == '__main__':
                                                                                       '/home/palm/PycharmProjects/seven2/anns/val_ann.csv',
                                                                                       '/home/palm/PycharmProjects/seven2/anns/c.csv',
                                                                                       )
-    save_path = '/home/palm/PycharmProjects/seven/images/cropped2'
+    save_path = '/home/palm/PycharmProjects/seven/images/cropped3'
     for instance in train_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):
@@ -33,10 +33,10 @@ if __name__ == '__main__':
 
             setname = os.path.split(instance['filename'])[0][-1]
             if obj['name'] == 'obj':
-                os.makedirs(os.path.join('/home/palm/PycharmProjects/seven/images/cropped2/unknown/obj'), exist_ok=True)
-                cv2.imwrite(os.path.join('/home/palm/PycharmProjects/seven/images/cropped2/unknown/obj', setname + '_' + str(idx) + os.path.basename(instance['filename'])),
+                os.makedirs(os.path.join(save_path, 'unknown/obj'), exist_ok=True)
+                cv2.imwrite(os.path.join(save_path, 'unknown/obj', setname + '_' + str(idx) + '_' + os.path.basename(instance['filename'])),
                             cropped_image)
             else:
                 os.makedirs(os.path.join(save_path, 'train', obj['name']), exist_ok=True)
-                cv2.imwrite(os.path.join(save_path, 'train', obj['name'], setname + '_' + str(idx) + os.path.basename(instance['filename'])),
+                cv2.imwrite(os.path.join(save_path, 'train', obj['name'], setname + '_' + str(idx) + '_' + os.path.basename(instance['filename'])),
                             cropped_image)

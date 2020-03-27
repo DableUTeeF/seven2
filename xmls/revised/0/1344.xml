@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1344.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\0\1344.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Benice 90ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>992</ymin>
+			<xmax>459</xmax>
+			<ymax>1394</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>3</folder>
+	<filename>2426.jpg</filename>
+	<path>/Users/nattakarnp/Desktop/seven/images/3/2426.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Taokeanoi seaweed big bag 12g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>447</ymin>
+			<xmax>742</xmax>
+			<ymax>1221</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>1507</ymin>
+			<xmax>984</xmax>
+			<ymax>1886</ymax>
+		</bndbox>
+	</object>
+</annotation>
