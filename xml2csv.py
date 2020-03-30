@@ -59,7 +59,7 @@ if __name__ == '__main__':
                             cls = 'United Almond 19g'
                         elif cls == 'Diva 160ml':
                             cls = 'Daiwa dishwashing liquid lemon 160ml'
-                        # cls = 'obj'
+                        # cls = 'obj'  # todo:
                     elif 'xmin' in elem.tag:
                         xmin = elem.text
                     elif 'ymin' in elem.tag:

@@ -27,7 +27,7 @@ class ThresholdAcc:
 
 if __name__ == '__main__':
     save_no = len(os.listdir('./snapshots/pairs'))
-    impath = 'images/cropped2/train'
+    impath = '/home/palm/PycharmProjects/seven/images/cropped3/train'
     model = Model(ResNet(zero_init_residual=False))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         h = model.fit_generator(train_generator, 20,
                                 schedule=[10, 15],
                                 tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
-                                epoch_end=model.checkpoint(f'./snapshots/pairs/{save_no}', 'ContrastiveLoss'))
+                                epoch_end=model.checkpoint(f'./snapshots/pairs/{save_no}', 'ContrastiveLoss'), step=200)
         with open('siamese.json', 'w') as wr:
             json.dump(h, wr)
     finally:

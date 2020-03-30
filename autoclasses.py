@@ -32,7 +32,7 @@ if __name__ == '__main__':
                   ContrastiveLoss(),
                   metric=None,
                   device='cuda')
-    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/3/epoch_0_0.03454810580774366.pth')
+    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/4/epoch_0_0.016697616640688282.pth')
     model.model.eval()
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
@@ -43,8 +43,7 @@ if __name__ == '__main__':
     labels_to_names = {0: 'obj'}
     prediction_model = models.load_model('/home/palm/PycharmProjects/seven2/snapshots/infer_model_temp.h5')
 
-    target_path = '/home/palm/PycharmProjects/seven/images/cropped2/unknown/obj'
-    query_path = '/home/palm/PycharmProjects/seven/images/cropped2/train'
+    query_path = '/home/palm/PycharmProjects/seven/images/cropped3/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     image_dict = {}

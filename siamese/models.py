@@ -16,6 +16,12 @@ model_urls = {
 }
 
 
+def pairwise_distance(x, y):
+    print(x.shape)
+    dists = -2 * torch.mm(x, y.t()) + torch.sum(y ** 2, dim=1) + torch.sum(x ** 2, dim=1).unsqueeze(1)
+    return dists
+
+
 class ContrastiveLoss(torch.nn.Module):
     """
     Contrastive loss function.
@@ -29,7 +35,7 @@ class ContrastiveLoss(torch.nn.Module):
     def forward(self, output, label):
         output1, output2 = output
         label = label.float()
-        euclidean_distance = F.pairwise_distance(output1, output2)
+        euclidean_distance = pairwise_distance(output1, output2)
         # cosine_similarity = F.cosine_similarity(output1, output2)
         # euclidean_distance = 1/cosine_similarity
         loss_contrastive = torch.mean((1 - label) * torch.pow(euclidean_distance, 2) +

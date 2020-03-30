@@ -75,7 +75,7 @@ if __name__ == '__main__':
                   ContrastiveLoss(),
                   metric=None,
                   device='cuda')
-    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/3/epoch_0_0.03454810580774366.pth')
+    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/4/epoch_0_0.016697616640688282.pth')
     model.model.eval()
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -110,7 +110,7 @@ if __name__ == '__main__':
                     t2 = time.time() - t
                     y = lsh.euclidean_dist(target_features.cpu().numpy()[0], query_features.cpu().numpy()[0])
                     t3 = time.time() - t
-                    # print(t1, t2, t3)
+                    print(t1, t2, t3)
                     if y < minimum[0]:
                         minimum = (y, query_folder)
             print(minimum, target_image_path)
