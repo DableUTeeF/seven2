@@ -29,9 +29,9 @@ class ContrastiveLoss(torch.nn.Module):
     def forward(self, output, label):
         output1, output2 = output
         label = label.float()
-        euclidean_distance = F.pairwise_distance(output1, output2)
-        # cosine_similarity = F.cosine_similarity(output1, output2)
-        # euclidean_distance = 1/cosine_similarity
+        # euclidean_distance = F.pairwise_distance(output1, output2)
+        cosine_similarity = F.cosine_similarity(output1, output2)
+        euclidean_distance = 1/cosine_similarity
         loss_contrastive = torch.mean((1 - label) * torch.pow(euclidean_distance, 2) +
                                       label * torch.pow(torch.clamp(self.margin - euclidean_distance, min=0.0), 2))
 
