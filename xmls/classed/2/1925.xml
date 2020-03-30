@@ -1,1 +1,1 @@
-<annotation><filename>1925.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/1925.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1925.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/1925.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Tonggarden salted broad beans 90g</name><bndbox><xmin>153</xmin><ymin>801</ymin><xmax>482</xmax><ymax>1385</ymax></bndbox></object></annotation>

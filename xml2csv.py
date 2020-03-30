@@ -13,7 +13,7 @@ if __name__ == '__main__':
     open('anns/c.csv', 'w')
     classes = []
     with open('anns/ann.csv', 'w') as wr:
-        for set_name in [0, 1, 3]:
+        for set_name in [0, 1, 2, 3]:
             folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
             path = f'./xmls/revised/{set_name}'
             for file in os.listdir(path):
@@ -59,6 +59,8 @@ if __name__ == '__main__':
                             cls = 'United Almond 19g'
                         elif cls == 'Diva 160ml':
                             cls = 'Daiwa dishwashing liquid lemon 160ml'
+                        elif cls == 'Protractor ruler':
+                            cls = 'TD protractor'
                         # cls = 'obj'  # todo:
                     elif 'xmin' in elem.tag:
                         xmin = elem.text

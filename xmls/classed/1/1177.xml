@@ -1,1 +1,1 @@
-<annotation><filename>1177.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1177.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1177.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1177.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Haribo goldbear</name><bndbox><xmin>127</xmin><ymin>398</ymin><xmax>576</xmax><ymax>895</ymax></bndbox></object></annotation>

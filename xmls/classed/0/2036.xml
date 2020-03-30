@@ -1,1 +1,1 @@
-<annotation><filename>2036.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/2036.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>2036.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/2036.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Pocky chocolate 45g</name><bndbox><xmin>311</xmin><ymin>421</ymin><xmax>1080</xmax><ymax>1103</ymax></bndbox></object></annotation>

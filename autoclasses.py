@@ -43,7 +43,7 @@ if __name__ == '__main__':
     labels_to_names = {0: 'obj'}
     prediction_model = models.load_model('/home/palm/PycharmProjects/seven2/snapshots/infer_model_temp.h5')
 
-    query_path = '/home/palm/PycharmProjects/seven/images/cropped3/train'
+    query_path = '/home/palm/PycharmProjects/seven/images/cropped4/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     image_dict = {}

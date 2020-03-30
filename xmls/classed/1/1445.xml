@@ -1,1 +1,1 @@
-<annotation><filename>1445.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1445.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1445.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1445.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Me-O Tuna in jelly can 80g</name><bndbox><xmin>115</xmin><ymin>805</ymin><xmax>682</xmax><ymax>1644</ymax></bndbox></object></annotation>

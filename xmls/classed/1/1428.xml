@@ -1,1 +1,1 @@
-<annotation><filename>1428.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1428.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1428.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1428.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Shokubutsu chinese milk 100ml</name><bndbox><xmin>220</xmin><ymin>989</ymin><xmax>568</xmax><ymax>1333</ymax></bndbox></object></annotation>

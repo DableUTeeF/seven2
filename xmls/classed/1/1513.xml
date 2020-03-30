@@ -1,1 +1,1 @@
-<annotation><filename>1513.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1513.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1513.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1513.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Dentiste plus white 50g</name><bndbox><xmin>242</xmin><ymin>812</ymin><xmax>833</xmax><ymax>1229</ymax></bndbox></object></annotation>

@@ -1,1 +1,1 @@
-<annotation><filename>842.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/842.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Macha arabus 200ml</name><bndbox><xmin>315</xmin><ymin>523</ymin><xmax>1080</xmax><ymax>1165</ymax></bndbox></object></annotation>
+<annotation><filename>842.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/842.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>4</xmin><ymin>671</ymin><xmax>163</xmax><ymax>1073</ymax></bndbox></object></annotation>

@@ -14,7 +14,7 @@ if __name__ == '__main__':
                                                                                       '/home/palm/PycharmProjects/seven2/anns/val_ann.csv',
                                                                                       '/home/palm/PycharmProjects/seven2/anns/c.csv',
                                                                                       )
-    save_path = '/home/palm/PycharmProjects/seven/images/cropped3'
+    save_path = '/home/palm/PycharmProjects/seven/images/cropped4'
     for instance in train_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):
@@ -32,7 +32,7 @@ if __name__ == '__main__':
                 cropped_image = cv2.copyMakeBorder(cropped_image, 0, 0, p, p, cv2.BORDER_CONSTANT)
 
             setname = os.path.split(instance['filename'])[0][-1]
-            if obj['name'] == 'obj':
+            if obj['name'] in ['obj', 'Cream o vanila 45g']:
                 os.makedirs(os.path.join(save_path, 'unknown/obj'), exist_ok=True)
                 cv2.imwrite(os.path.join(save_path, 'unknown/obj', setname + '_' + str(idx) + '_' + os.path.basename(instance['filename'])),
                             cropped_image)

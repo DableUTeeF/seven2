@@ -1,1 +1,1 @@
-<annotation><filename>1740.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/3/1740.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1740.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/3/1740.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Ferrero 37.5g</name><bndbox><xmin>76</xmin><ymin>531</ymin><xmax>427</xmax><ymax>1160</ymax></bndbox></object></annotation>
