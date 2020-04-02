@@ -1,1 +1,1 @@
-<annotation><filename>751.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/751.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>751.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/751.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Cosmetic_box</name><bndbox><xmin>221</xmin><ymin>1098</ymin><xmax>596</xmax><ymax>1428</ymax></bndbox></object><object><name>Hand!!!!</name><bndbox><xmin>523</xmin><ymin>900</ymin><xmax>829</xmax><ymax>1171</ymax></bndbox></object></annotation>

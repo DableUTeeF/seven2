@@ -1,1 +1,1 @@
-<annotation><filename>1016.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/1016.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1016.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/1016.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Jolly cola 25g</name><bndbox><xmin>226</xmin><ymin>619</ymin><xmax>865</xmax><ymax>1145</ymax></bndbox></object></annotation>

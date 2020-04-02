@@ -61,7 +61,7 @@ if __name__ == '__main__':
                             cls = 'Daiwa dishwashing liquid lemon 160ml'
                         elif cls == 'Protractor ruler':
                             cls = 'TD protractor'
-                        # cls = 'obj'  # todo:
+                        cls = 'obj'  # todo:
                     elif 'xmin' in elem.tag:
                         xmin = elem.text
                     elif 'ymin' in elem.tag:

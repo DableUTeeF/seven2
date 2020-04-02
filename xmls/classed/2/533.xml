@@ -1,1 +1,1 @@
-<annotation><filename>533.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/533.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>533.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/533.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Rosdee pork 30g</name><bndbox><xmin>441</xmin><ymin>928</ymin><xmax>949</xmax><ymax>1573</ymax></bndbox></object></annotation>

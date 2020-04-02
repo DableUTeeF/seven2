@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2179.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2/2179.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Amira plum 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>275</xmin>
+			<ymin>1220</ymin>
+			<xmax>657</xmax>
+			<ymax>1564</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dentyne splash straw 15.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>503</xmin>
+			<ymin>885</ymin>
+			<xmax>684</xmax>
+			<ymax>1102</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dettol original 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>226</xmin>
+			<ymin>934</ymin>
+			<xmax>418</xmax>
+			<ymax>1166</ymax>
+		</bndbox>
+	</object>
+</annotation>

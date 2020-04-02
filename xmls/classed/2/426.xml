@@ -1,1 +1,1 @@
-<annotation><filename>426.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/426.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>426.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/426.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Shokubutsu ginkgo 100ml</name><bndbox><xmin>158</xmin><ymin>584</ymin><xmax>641</xmax><ymax>1176</ymax></bndbox></object></annotation>
