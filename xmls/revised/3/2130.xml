@@ -1,7 +1,7 @@
 <annotation>
 	<folder>3</folder>
 	<filename>2130.jpg</filename>
-	<path>C:\Users\TON\Desktop\3\2130.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/2130.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>7 select mineral 350ml</name>
+		<name>Sharpie permanent marker 2CT</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

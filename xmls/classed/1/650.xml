@@ -1,1 +1,1 @@
-<annotation><filename>650.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/650.jpg</path><size><width>1080</width><height>1920</height></size><object><name>obj</name><bndbox><xmin>15</xmin><ymin>825</ymin><xmax>349</xmax><ymax>1302</ymax></bndbox></object></annotation>
+<annotation><filename>650.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/650.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Dettol original 65g</name><bndbox><xmin>15</xmin><ymin>825</ymin><xmax>349</xmax><ymax>1302</ymax></bndbox></object></annotation>

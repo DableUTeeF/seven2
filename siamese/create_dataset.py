@@ -14,7 +14,7 @@ if __name__ == '__main__':
                                                                                       '/home/palm/PycharmProjects/seven2/anns/val_ann.csv',
                                                                                       '/home/palm/PycharmProjects/seven2/anns/c.csv',
                                                                                       )
-    save_path = '/home/palm/PycharmProjects/seven/images/cropped4'
+    save_path = '/home/palm/PycharmProjects/seven/images/cropped5'
     for instance in train_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):

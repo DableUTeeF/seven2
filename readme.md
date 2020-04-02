@@ -7,3 +7,19 @@ Golf's March 13th images: https://drive.google.com/file/d/15XjKKXViz58s25moz76e2
 
 ## Note
 The `predefined_classes.txt` for use in labelImg is in anns/
+
+# Plan
+## Query image selection method
+|No|Train|Query|Result|
+|---|---|---|---|
+|1|All|All|---|
+|2|All|Random Selected|---|
+|3|Random Selected|Random Selected|---|
+|4|Average Nearest Selected|Average Nearest Selected|---|
+
+## Contrastive loss and distant threshold
+|No|Train loss|distant threshold|result|
+|---|---|---|---|
+|1|Euclidean Distant|1.0|--|
+|2|Invert Cosine Similarity|cosine(0.5)|--|
+|3|Euclidean Distant|0.7|--|
