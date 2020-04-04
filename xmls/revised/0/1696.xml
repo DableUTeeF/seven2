@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1696.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/1696.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ole super sour 17.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>343</xmin>
+			<ymin>440</ymin>
+			<xmax>812</xmax>
+			<ymax>1117</ymax>
+		</bndbox>
+	</object>
+</annotation>

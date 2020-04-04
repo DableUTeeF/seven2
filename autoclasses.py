@@ -47,7 +47,7 @@ if __name__ == '__main__':
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     image_dict = {}
-    for set_name in [2]:
+    for set_name in [0]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         anns_path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
         exiting_anns = [os.path.basename(x) for x in os.listdir(anns_path)]

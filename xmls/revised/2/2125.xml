@@ -1,0 +1,62 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2125.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2/2125.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Amira plum 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>1096</ymin>
+			<xmax>871</xmax>
+			<ymax>1508</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Vaseline healthy white 75g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>228</xmin>
+			<ymin>1185</ymin>
+			<xmax>474</xmax>
+			<ymax>1420</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bissin 36g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>812</ymin>
+			<xmax>495</xmax>
+			<ymax>1119</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Clorets lemon mint 33.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>550</xmin>
+			<ymin>836</ymin>
+			<xmax>803</xmax>
+			<ymax>1097</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,1 +1,1 @@
-<annotation><filename>1420.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1420.jpg</path><size><width>1080</width><height>1920</height></size></annotation>
+<annotation><filename>1420.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/1420.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Benice 90ml</name><bndbox><xmin>421</xmin><ymin>712</ymin><xmax>722</xmax><ymax>1163</ymax></bndbox></object></annotation>

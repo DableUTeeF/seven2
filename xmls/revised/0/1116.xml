@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1116.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/1116.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>143</ymin>
+			<xmax>404</xmax>
+			<ymax>885</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dove volume conditioner 130ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>360</xmin>
+			<ymin>553</ymin>
+			<xmax>628</xmax>
+			<ymax>1282</ymax>
+		</bndbox>
+	</object>
+</annotation>

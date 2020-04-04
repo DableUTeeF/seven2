@@ -9,6 +9,6 @@ if __name__ == '__main__':
     for folder in os.listdir(src_dir):
         if folder not in os.listdir(dst_dir):
             shutil.copytree(os.path.join(src_dir, folder),
-                            os.path.join(dst_root, 'test', folder))
+                            os.path.join(dst_root, 'train', folder))
         else:
             print(folder)

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>2112.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2112.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Taokaenoi bake red 1.65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>321</xmin>
+			<ymin>560</ymin>
+			<xmax>742</xmax>
+			<ymax>1220</ymax>
+		</bndbox>
+	</object>
+</annotation>

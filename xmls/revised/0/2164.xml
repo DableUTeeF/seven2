@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>2164.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2164.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lays BBQ 27g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>229</xmin>
+			<ymin>104</ymin>
+			<xmax>1010</xmax>
+			<ymax>958</ymax>
+		</bndbox>
+	</object>
+</annotation>
