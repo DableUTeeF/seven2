@@ -29,8 +29,10 @@ def load_cache(model, image, cachepath):
     return save_cache(model, image, cachepath)
 
 
-def memory_cache(cachedict, model, image, cachepath):
+def memory_cache(cachedict, model, query, cachepath, transform):
     if cachepath not in cachedict:
+        image = Image.open(query)
+        image = transform(image)
         cachedict[cachepath] = load_cache(model, image, cachepath)
     return cachedict, cachedict[cachepath]
 

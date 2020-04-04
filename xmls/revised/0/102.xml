@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>102.jpg</filename>
-	<path>/Users/nattakarnp/Desktop/seven/images/0/102.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/0/102.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,64 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Break 23.5g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>440</xmin>
-			<ymin>449</ymin>
-			<xmax>998</xmax>
-			<ymax>877</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Kitkat green tea 35g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>205</xmin>
-			<ymin>875</ymin>
-			<xmax>606</xmax>
-			<ymax>1329</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>obj</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>245</xmin>
-			<ymin>675</ymin>
-			<xmax>928</xmax>
-			<ymax>1113</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Hershey's creamy milk 40g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>112</xmin>
-			<ymin>173</ymin>
-			<xmax>676</xmax>
-			<ymax>557</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Milo choco bar 15g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>232</xmin>
-			<ymin>4</ymin>
-			<xmax>808</xmax>
-			<ymax>240</ymax>
-		</bndbox>
-	</object>
 </annotation>

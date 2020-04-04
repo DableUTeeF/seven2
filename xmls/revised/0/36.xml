@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>36.jpg</filename>
-	<path>/Users/nattakarnp/Desktop/seven/images/0/36.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/0/36.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>obj</name>
+		<name>Abacus pink 30g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>United Almond 19g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

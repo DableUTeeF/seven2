@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>101.jpg</filename>
-	<path>/Users/nattakarnp/Desktop/seven/images/0/101.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/0/101.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>92</xmin>
-			<ymin>951</ymin>
-			<xmax>964</xmax>
-			<ymax>1193</ymax>
+			<xmin>132</xmin>
+			<ymin>965</ymin>
+			<xmax>934</xmax>
+			<ymax>1167</ymax>
 		</bndbox>
 	</object>
 	<object>

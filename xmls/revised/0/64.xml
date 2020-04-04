@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>64.jpg</filename>
-	<path>/Users/nattakarnp/Desktop/seven/images/0/64.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/0/64.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>obj</name>
+		<name>Big Bloom</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

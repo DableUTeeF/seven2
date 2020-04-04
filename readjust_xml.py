@@ -46,15 +46,19 @@ if __name__ == '__main__':
     query_path = '/home/palm/PycharmProjects/seven/images/cropped5/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
-    image_dict = {}
-    for set_name in [0]:
+    for set_name in [0, 1, 2, 3]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         anns_path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
         exiting_anns = [os.path.basename(x) for x in os.listdir(anns_path)]
         for i in os.listdir(folder):
-            if i[:-4] + '.xml' in exiting_anns:
+            if i[:-4] + '.xml' not in exiting_anns:
                 continue
             if 'txt' in i:
+                continue
+            x = open(os.path.join(anns_path, i[:-4] + '.xml')).read()
+            if '<name>' not in x:
+                continue
+            if '<name>obj</name>' not in x:
                 continue
             image = read_image_bgr(os.path.join(folder, i))
 
@@ -111,6 +115,6 @@ if __name__ == '__main__':
 
             # cv2.imshow(f'im_{i}', draw)
             tree = ET.ElementTree(root)
-            os.makedirs(f'/home/palm/PycharmProjects/seven2/xmls/classed/{set_name}/', exist_ok=True)
-            tree.write(f'/home/palm/PycharmProjects/seven2/xmls/classed/{set_name}/' + i[:-4] + '.xml')
+            os.makedirs(f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/', exist_ok=True)
+            tree.write(f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/' + i[:-4] + '.xml')
 

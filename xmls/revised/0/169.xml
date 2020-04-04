@@ -1,7 +1,7 @@
 <annotation>
 	<folder>0</folder>
 	<filename>169.jpg</filename>
-	<path>/Users/nattakarnp/Desktop/seven/images/0/169.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/0/169.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>482</xmin>
-			<ymin>520</ymin>
-			<xmax>885</xmax>
-			<ymax>918</ymax>
+			<xmin>484</xmin>
+			<ymin>541</ymin>
+			<xmax>880</xmax>
+			<ymax>888</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>22</xmin>
 			<ymin>880</ymin>
-			<xmax>508</xmax>
-			<ymax>1395</ymax>
+			<xmax>496</xmax>
+			<ymax>1371</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -66,9 +66,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>849</ymin>
-			<xmax>176</xmax>
-			<ymax>1165</ymax>
+			<ymin>831</ymin>
+			<xmax>175</xmax>
+			<ymax>1147</ymax>
 		</bndbox>
 	</object>
 </annotation>
