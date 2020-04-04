@@ -1,0 +1,50 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>2591.jpg</filename>
+	<path>C:\Users\Chief Engineer\Desktop\New folder\2591.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Koh-kae salted peanuts 42g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>919</ymin>
+			<xmax>516</xmax>
+			<ymax>1230</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fruit mania pitted red dates 60g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>367</ymin>
+			<xmax>526</xmax>
+			<ymax>731</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bon o bon chocolate 14g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>705</ymin>
+			<xmax>729</xmax>
+			<ymax>977</ymax>
+		</bndbox>
+	</object>
+</annotation>

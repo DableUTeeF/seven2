@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1602.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\0\1602.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>159</xmin>
+			<ymin>1047</ymin>
+			<xmax>582</xmax>
+			<ymax>1232</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Take-it Black</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>102</xmin>
+			<ymin>1230</ymin>
+			<xmax>489</xmax>
+			<ymax>1377</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1235.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\0\1235.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Head and shoulder shampoo pink 150 ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>822</ymin>
+			<xmax>689</xmax>
+			<ymax>1218</ymax>
+		</bndbox>
+	</object>
+</annotation>

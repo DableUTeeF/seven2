@@ -1,0 +1,50 @@
+<annotation>
+	<folder>0</folder>
+	<filename>942.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\0\942.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tonggarden salted pistachios 40g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1310</ymin>
+			<xmax>438</xmax>
+			<ymax>1809</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Taokaenoi bake red 1.65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>368</xmin>
+			<ymin>859</ymin>
+			<xmax>791</xmax>
+			<ymax>1144</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Tawandang roll seaweed original 5g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>722</ymin>
+			<xmax>382</xmax>
+			<ymax>1326</ymax>
+		</bndbox>
+	</object>
+</annotation>

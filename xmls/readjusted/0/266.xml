@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>266.jpg</filename>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Pocky macha 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>258</ymin>
+			<xmax>625</xmax>
+			<ymax>561</ymax>
+		</bndbox>
+	</object>
+</annotation>

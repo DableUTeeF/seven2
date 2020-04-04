@@ -1,0 +1,38 @@
+<annotation>
+	<folder>3</folder>
+	<filename>2452.jpg</filename>
+	<path>/Users/nattakarnp/Desktop/seven/images/3/2452.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Macha arabus 200ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>132</xmin>
+			<ymin>159</ymin>
+			<xmax>795</xmax>
+			<ymax>586</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Toppo cocoa pretzel stick 11g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>411</xmin>
+			<ymin>917</ymin>
+			<xmax>1070</xmax>
+			<ymax>1166</ymax>
+		</bndbox>
+	</object>
+</annotation>

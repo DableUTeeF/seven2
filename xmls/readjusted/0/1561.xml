@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1561.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/1561.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Amira tamarind 42g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>493</xmin>
+			<ymin>353</ymin>
+			<xmax>1068</xmax>
+			<ymax>1115</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>263</xmin>
+			<ymin>48</ymin>
+			<xmax>611</xmax>
+			<ymax>738</ymax>
+		</bndbox>
+	</object>
+</annotation>

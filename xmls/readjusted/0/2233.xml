@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>2233.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2233.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tonggarden salted broad beans 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>146</xmin>
+			<ymin>234</ymin>
+			<xmax>826</xmax>
+			<ymax>976</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>25</xmin>
+			<ymin>1</ymin>
+			<xmax>416</xmax>
+			<ymax>279</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -45,29 +45,6 @@ def memory_image(query, image_dict, transform):
     return image_dict, image_dict[query]
 
 
-def predict_image(pil_image, model, query_path, cache_path, cache_dict):
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                     std=[0.229, 0.224, 0.225])
-    transform = transforms.Compose([transforms.Resize((224, 224)),
-                                    transforms.ToTensor(),
-                                    normalize])
-    target_image = transform(pil_image)
-    x = torch.zeros((1, 3, 224, 224))
-    x[0] = target_image
-    target_features = model.model._forward_impl(x.cuda())
-    minimum = (float('inf'), 0)
-    for query_folder in os.listdir(query_path):
-        for query_image_path in os.listdir(os.path.join(query_path, query_folder)):
-            query = os.path.join(query_path, query_folder, query_image_path)
-            query_image = Image.open(query)
-            query_image = transform(query_image)
-            cache_dict, query_features = memory_cache(cache_dict, model.model, query_image, os.path.join(cache_path, query_folder, query_image_path + '.pth'))
-            y = torch.pairwise_distance(query_features.cpu(), target_features.cpu()).detach().numpy()
-            if y < minimum[0]:
-                minimum = (y, query_folder)
-    return minimum
-
-
 if __name__ == '__main__':
     model = Model(ResNet(predict=True))
     model.compile(torch.optim.SGD(model.model.parameters(),
@@ -92,7 +69,6 @@ if __name__ == '__main__':
     query_path = '/home/palm/PycharmProjects/seven/images/cropped2/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
-    image_dict = {}
     with torch.no_grad():
         for target_image_path in os.listdir(target_path):
             target = os.path.join(target_path, target_image_path)
@@ -106,9 +82,8 @@ if __name__ == '__main__':
                 for query_image_path in os.listdir(os.path.join(query_path, query_folder)):
                     t = time.time()
                     query = os.path.join(query_path, query_folder, query_image_path)
-                    image_dict, query_image = memory_image(query, image_dict, transform)
                     t1 = time.time() - t
-                    cache_dict, query_features = memory_cache(cache_dict, model.model, query_image, os.path.join(cache_path, query_folder, query_image_path + '.pth'))
+                    cache_dict, query_features = memory_cache(cache_dict, model.model, query, os.path.join(cache_path, query_folder, query_image_path + '.pth'), transform)
                     t2 = time.time() - t
                     y = lsh.euclidean_dist(target_features.cpu().numpy()[0], query_features.cpu().numpy()[0])
                     t3 = time.time() - t

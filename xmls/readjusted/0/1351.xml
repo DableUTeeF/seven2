@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1351.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/1351.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lypon-F 150ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>419</xmin>
+			<ymin>7</ymin>
+			<xmax>916</xmax>
+			<ymax>1083</ymax>
+		</bndbox>
+	</object>
+</annotation>

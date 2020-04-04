@@ -1,0 +1,50 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>2463.jpg</filename>
+	<path>C:\Users\Chief Engineer\Desktop\New folder\2463.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Soffel flora 8ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>688</xmin>
+			<ymin>950</ymin>
+			<xmax>1068</xmax>
+			<ymax>1215</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Macha arabus 200ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>1299</ymin>
+			<xmax>444</xmax>
+			<ymax>1868</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Toppo cocoa pretzel stick 11g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>554</xmin>
+			<ymin>1208</ymin>
+			<xmax>1080</xmax>
+			<ymax>1452</ymax>
+		</bndbox>
+	</object>
+</annotation>

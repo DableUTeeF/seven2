@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>1315.jpg</filename>
+	<path>D:\Users\Administrator\Desktop\0\1315.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Benice 90ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>337</xmin>
+			<ymin>515</ymin>
+			<xmax>701</xmax>
+			<ymax>1152</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>106</ymin>
+			<xmax>726</xmax>
+			<ymax>1015</ymax>
+		</bndbox>
+	</object>
+</annotation>

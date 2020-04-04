@@ -19,6 +19,9 @@ import numpy as np
 import cv2
 import tensorflow as tf
 import keras
+import shutil
+import time
+
 gpu_options = tf.GPUOptions(allow_growth=True)
 sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 keras.backend.set_session(sess)
@@ -46,7 +49,7 @@ if __name__ == '__main__':
     query_path = '/home/palm/PycharmProjects/seven/images/cropped5/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
-    for set_name in [0, 1, 2, 3]:
+    for set_name in [1, 2, 3]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         anns_path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
         exiting_anns = [os.path.basename(x) for x in os.listdir(anns_path)]
@@ -57,11 +60,17 @@ if __name__ == '__main__':
                 continue
             x = open(os.path.join(anns_path, i[:-4] + '.xml')).read()
             if '<name>' not in x:
+                os.makedirs(f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/', exist_ok=True)
+                shutil.copy(os.path.join(anns_path, i[:-4] + '.xml'),
+                            f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/'+i[:-4] + '.xml')
                 continue
             if '<name>obj</name>' not in x:
+                os.makedirs(f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/', exist_ok=True)
+                shutil.copy(os.path.join(anns_path, i[:-4] + '.xml'),
+                            f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/'+i[:-4] + '.xml')
                 continue
             image = read_image_bgr(os.path.join(folder, i))
-
+            start_time = time.time()
             # copy to draw ong
             draw = image.copy()
             draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
@@ -104,7 +113,7 @@ if __name__ == '__main__':
                                 minimum = (y, query_folder)
                 if minimum[0] > 1:
                     minimum = (minimum[0], 'obj')
-                print(minimum)
+                # print(minimum)
                 obj = ET.SubElement(root, 'object')
                 ET.SubElement(obj, 'name').text = minimum[1]
                 bndbx = ET.SubElement(obj, 'bndbox')
@@ -112,7 +121,7 @@ if __name__ == '__main__':
                 ET.SubElement(bndbx, 'ymin').text = str(b[1])
                 ET.SubElement(bndbx, 'xmax').text = str(b[2])
                 ET.SubElement(bndbx, 'ymax').text = str(b[3])
-
+            print(time.time() - start_time)
             # cv2.imshow(f'im_{i}', draw)
             tree = ET.ElementTree(root)
             os.makedirs(f'/home/palm/PycharmProjects/seven2/xmls/readjusted/{set_name}/', exist_ok=True)

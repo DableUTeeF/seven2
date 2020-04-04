@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>163.jpg</filename>
+	<path>/Users/nattakarnp/Desktop/seven/images/0/163.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Jolly bear 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>393</xmin>
+			<ymin>812</ymin>
+			<xmax>1013</xmax>
+			<ymax>1445</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>836</ymin>
+			<xmax>392</xmax>
+			<ymax>1438</ymax>
+		</bndbox>
+	</object>
+</annotation>
