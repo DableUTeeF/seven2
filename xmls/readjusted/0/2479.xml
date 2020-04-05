@@ -1,1 +1,14 @@
-<annotation><filename>2479.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/2479.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Jolly cola 25g</name><bndbox><xmin>336</xmin><ymin>455</ymin><xmax>1037</xmax><ymax>953</ymax></bndbox></object><object><name>Hand!!!!</name><bndbox><xmin>23</xmin><ymin>0</ymin><xmax>507</xmax><ymax>534</ymax></bndbox></object><object><name>Jolly cola 25g</name><bndbox><xmin>286</xmin><ymin>53</ymin><xmax>1033</xmax><ymax>928</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>541</xmin><ymin>11</ymin><xmax>1054</xmax><ymax>531</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>0</folder>
+	<filename>2479.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2479.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

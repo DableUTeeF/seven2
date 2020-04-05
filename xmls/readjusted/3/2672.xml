@@ -1,7 +1,7 @@
 <annotation>
 	<folder>3</folder>
 	<filename>2672.jpg</filename>
-	<path>C:\project711\golf_13-03\3\2672.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/2672.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>331</xmin>
-			<ymin>672</ymin>
-			<xmax>768</xmax>
-			<ymax>1430</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Tong Garden Salted Almonds 35g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>281</xmin>
 			<ymin>640</ymin>
 			<xmax>718</xmax>
 			<ymax>1129</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Hand!!!!</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>7</ymin>
-			<xmax>493</xmax>
-			<ymax>227</ymax>
 		</bndbox>
 	</object>
 	<object>

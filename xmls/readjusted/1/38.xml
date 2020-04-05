@@ -1,1 +1,74 @@
-<annotation><filename>38.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/38.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Almond_Fried_56G</name><bndbox><xmin>260</xmin><ymin>893</ymin><xmax>657</xmax><ymax>1658</ymax></bndbox></object><object><name>United Almond 19g</name><bndbox><xmin>251</xmin><ymin>413</ymin><xmax>575</xmax><ymax>867</ymax></bndbox></object><object><name>Abacus yellow 30g</name><bndbox><xmin>112</xmin><ymin>676</ymin><xmax>327</xmax><ymax>957</ymax></bndbox></object><object><name>Abacus pink 30g</name><bndbox><xmin>0</xmin><ymin>1042</ymin><xmax>174</xmax><ymax>1336</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>38.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/38.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Almond_Fried_56G</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>260</xmin>
+			<ymin>893</ymin>
+			<xmax>657</xmax>
+			<ymax>1658</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>United Almond 19g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>413</ymin>
+			<xmax>575</xmax>
+			<ymax>867</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Abacus yellow 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>132</xmin>
+			<ymin>684</ymin>
+			<xmax>347</xmax>
+			<ymax>965</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Abacus pink 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1042</ymin>
+			<xmax>174</xmax>
+			<ymax>1336</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Abacus stick 15g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>613</ymin>
+			<xmax>180</xmax>
+			<ymax>765</ymax>
+		</bndbox>
+	</object>
+</annotation>

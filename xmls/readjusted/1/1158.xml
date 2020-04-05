@@ -1,7 +1,7 @@
 <annotation>
-	<folder>0</folder>
+	<folder>1</folder>
 	<filename>1158.jpg</filename>
-	<path>D:\Users\Administrator\Desktop\0\1158.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/1158.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>131</xmin>
-			<ymin>1039</ymin>
-			<xmax>732</xmax>
-			<ymax>1510</ymax>
+			<xmin>158</xmin>
+			<ymin>1075</ymin>
+			<xmax>710</xmax>
+			<ymax>1461</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>333</xmin>
-			<ymin>1307</ymin>
-			<xmax>761</xmax>
-			<ymax>1670</ymax>
+			<xmin>347</xmin>
+			<ymin>1321</ymin>
+			<xmax>742</xmax>
+			<ymax>1639</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>553</xmin>
-			<ymin>842</ymin>
-			<xmax>949</xmax>
-			<ymax>1216</ymax>
+			<xmin>581</xmin>
+			<ymin>853</ymin>
+			<xmax>924</xmax>
+			<ymax>1198</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>63</xmin>
-			<ymin>863</ymin>
-			<xmax>526</xmax>
-			<ymax>1218</ymax>
+			<xmin>70</xmin>
+			<ymin>879</ymin>
+			<xmax>496</xmax>
+			<ymax>1201</ymax>
 		</bndbox>
 	</object>
 </annotation>

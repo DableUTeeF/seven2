@@ -1,7 +1,7 @@
 <annotation>
-	<folder>0</folder>
+	<folder>1</folder>
 	<filename>1157.jpg</filename>
-	<path>D:\Users\Administrator\Desktop\0\1157.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/1157.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,64 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Shokubutsu ginkgo 100ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>463</xmin>
-			<ymin>573</ymin>
-			<xmax>992</xmax>
-			<ymax>970</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Rejoice conditioner 120ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>116</xmin>
-			<ymin>855</ymin>
-			<xmax>782</xmax>
-			<ymax>1632</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Benice 90ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>391</xmin>
-			<ymin>1179</ymin>
-			<xmax>922</xmax>
-			<ymax>1806</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Protex propolis 65g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>774</ymin>
-			<xmax>213</xmax>
-			<ymax>1120</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Dove volume conditioner 130ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>45</xmin>
-			<ymin>729</ymin>
-			<xmax>463</xmax>
-			<ymax>1314</ymax>
-		</bndbox>
-	</object>
 </annotation>

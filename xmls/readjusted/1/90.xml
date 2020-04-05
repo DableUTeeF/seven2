@@ -1,1 +1,14 @@
-<annotation><filename>90.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/90.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Mentos mint 37g</name><bndbox><xmin>434</xmin><ymin>608</ymin><xmax>676</xmax><ymax>994</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>9</xmin><ymin>600</ymin><xmax>253</xmax><ymax>984</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>53</xmin><ymin>544</ymin><xmax>349</xmax><ymax>868</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>233</xmin><ymin>280</ymin><xmax>531</xmax><ymax>588</ymax></bndbox></object><object><name>Mentos fruit 37g</name><bndbox><xmin>199</xmin><ymin>885</ymin><xmax>488</xmax><ymax>1172</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>1</xmin><ymin>280</ymin><xmax>142</xmax><ymax>641</ymax></bndbox></object><object><name>Mentos sour mix 37g</name><bndbox><xmin>169</xmin><ymin>520</ymin><xmax>381</xmax><ymax>842</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>90.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/90.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

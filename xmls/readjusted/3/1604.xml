@@ -1,7 +1,7 @@
 <annotation>
-	<folder>0</folder>
+	<folder>3</folder>
 	<filename>1604.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\0\1604.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/1604.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>KitKat Red 35g</name>
+		<name>Take-it Red</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

@@ -1,1 +1,62 @@
-<annotation><filename>146.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/146.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Nescafe_blend'nbrew_espresso_157.5g</name><bndbox><xmin>58</xmin><ymin>917</ymin><xmax>530</xmax><ymax>1545</ymax></bndbox></object><object><name>Losan cocoa 28g</name><bndbox><xmin>432</xmin><ymin>309</ymin><xmax>1049</xmax><ymax>1223</ymax></bndbox></object><object><name>Jolly bear 25g</name><bndbox><xmin>117</xmin><ymin>382</ymin><xmax>394</xmax><ymax>797</ymax></bndbox></object><object><name>Tonggarden salted broad beans 90g</name><bndbox><xmin>7</xmin><ymin>744</ymin><xmax>242</xmax><ymax>1001</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>146.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/146.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>58</xmin>
+			<ymin>917</ymin>
+			<xmax>530</xmax>
+			<ymax>1545</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Birdy 3 in 1 robusta 62g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>432</xmin>
+			<ymin>309</ymin>
+			<xmax>1049</xmax>
+			<ymax>1223</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly bear 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>382</ymin>
+			<xmax>394</xmax>
+			<ymax>797</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kellogg's corn flakes 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>744</ymin>
+			<xmax>242</xmax>
+			<ymax>1001</ymax>
+		</bndbox>
+	</object>
+</annotation>

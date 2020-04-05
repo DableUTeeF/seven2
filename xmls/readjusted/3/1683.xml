@@ -1,7 +1,7 @@
 <annotation>
-	<folder>0</folder>
+	<folder>3</folder>
 	<filename>1683.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\0\1683.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/1683.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,30 @@
 			<ymin>1204</ymin>
 			<xmax>495</xmax>
 			<ymax>1400</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ferrero 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>610</xmin>
+			<ymin>889</ymin>
+			<xmax>836</xmax>
+			<ymax>1223</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Break 23.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>514</xmin>
+			<ymin>1197</ymin>
+			<xmax>836</xmax>
+			<ymax>1353</ymax>
 		</bndbox>
 	</object>
 </annotation>

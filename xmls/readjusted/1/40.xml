@@ -1,1 +1,74 @@
-<annotation><filename>40.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/40.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Abacus pink 30g</name><bndbox><xmin>6</xmin><ymin>930</ymin><xmax>219</xmax><ymax>1237</ymax></bndbox></object><object><name>Pocky chocolate 45g</name><bndbox><xmin>0</xmin><ymin>1325</ymin><xmax>725</xmax><ymax>1643</ymax></bndbox></object><object><name>Abacus yellow 30g</name><bndbox><xmin>196</xmin><ymin>587</ymin><xmax>458</xmax><ymax>959</ymax></bndbox></object><object><name>Abacus stick 15g</name><bndbox><xmin>261</xmin><ymin>442</ymin><xmax>664</xmax><ymax>676</ymax></bndbox></object><object><name>United Almond 19g</name><bndbox><xmin>450</xmin><ymin>803</ymin><xmax>1080</xmax><ymax>1178</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>40.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/40.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Abacus pink 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>930</ymin>
+			<xmax>219</xmax>
+			<ymax>1237</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Almind_fried_56g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1325</ymin>
+			<xmax>725</xmax>
+			<ymax>1643</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Abacus yellow 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>196</xmin>
+			<ymin>587</ymin>
+			<xmax>458</xmax>
+			<ymax>959</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Abacus stick 15g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>261</xmin>
+			<ymin>442</ymin>
+			<xmax>664</xmax>
+			<ymax>676</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>United Almond 19g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>450</xmin>
+			<ymin>803</ymin>
+			<xmax>1080</xmax>
+			<ymax>1178</ymax>
+		</bndbox>
+	</object>
+</annotation>

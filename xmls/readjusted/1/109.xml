@@ -1,1 +1,14 @@
-<annotation><filename>109.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/109.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Milo serials box 25g</name><bndbox><xmin>186</xmin><ymin>1242</ymin><xmax>603</xmax><ymax>1858</ymax></bndbox></object><object><name>Jolly cola 25g</name><bndbox><xmin>589</xmin><ymin>671</ymin><xmax>1076</xmax><ymax>1389</ymax></bndbox></object><object><name>Kellogg's corn flakes 25g</name><bndbox><xmin>276</xmin><ymin>183</ymin><xmax>797</xmax><ymax>729</ymax></bndbox></object><object><name>Diamond grains original 38g</name><bndbox><xmin>24</xmin><ymin>733</ymin><xmax>400</xmax><ymax>1237</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>109.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/109.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,1 +1,14 @@
-<annotation><filename>51.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/51.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Cosmetics</name><bndbox><xmin>286</xmin><ymin>463</ymin><xmax>452</xmax><ymax>870</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>160</xmin><ymin>293</ymin><xmax>438</xmax><ymax>529</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>473</xmin><ymin>618</ymin><xmax>796</xmax><ymax>936</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>13</xmin><ymin>516</ymin><xmax>246</xmax><ymax>846</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>187</xmin><ymin>848</ymin><xmax>466</xmax><ymax>1186</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>51.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/51.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

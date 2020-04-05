@@ -1,1 +1,50 @@
-<annotation><filename>2196.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/2196.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Corifine C 14.4g</name><bndbox><xmin>605</xmin><ymin>694</ymin><xmax>928</xmax><ymax>898</ymax></bndbox></object><object><name>Cougar milk 18.9g</name><bndbox><xmin>213</xmin><ymin>992</ymin><xmax>806</xmax><ymax>1340</ymax></bndbox></object><object><name>Jolly cola 25g</name><bndbox><xmin>96</xmin><ymin>709</ymin><xmax>471</xmax><ymax>910</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>2</folder>
+	<filename>2196.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2/2196.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Corifine C 14.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>605</xmin>
+			<ymin>694</ymin>
+			<xmax>928</xmax>
+			<ymax>898</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cougar milk 18.9g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>992</ymin>
+			<xmax>806</xmax>
+			<ymax>1340</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lush 22.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>709</ymin>
+			<xmax>471</xmax>
+			<ymax>910</ymax>
+		</bndbox>
+	</object>
+</annotation>

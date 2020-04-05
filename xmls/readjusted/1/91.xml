@@ -1,1 +1,14 @@
-<annotation><filename>91.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/91.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Kitkat red 35g</name><bndbox><xmin>628</xmin><ymin>1102</ymin><xmax>1029</xmax><ymax>1746</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>528</xmin><ymin>473</ymin><xmax>848</xmax><ymax>1041</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>174</xmin><ymin>661</ymin><xmax>462</xmax><ymax>1215</ymax></bndbox></object><object><name>obj</name><bndbox><xmin>1</xmin><ymin>1348</ymin><xmax>325</xmax><ymax>1561</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>135</xmin><ymin>244</ymin><xmax>444</xmax><ymax>661</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>27</xmin><ymin>725</ymin><xmax>209</xmax><ymax>1157</ymax></bndbox></object><object><name>Mentos fruit 37g</name><bndbox><xmin>27</xmin><ymin>1127</ymin><xmax>351</xmax><ymax>1333</ymax></bndbox></object><object><name>Mentos mint 37g</name><bndbox><xmin>467</xmin><ymin>1133</ymin><xmax>637</xmax><ymax>1754</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>91.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/91.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

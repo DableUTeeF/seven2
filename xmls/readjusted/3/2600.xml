@@ -1,7 +1,7 @@
 <annotation>
 	<folder>3</folder>
 	<filename>2600.jpg</filename>
-	<path>C:\project711\golf_13-03\3\2600.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/2600.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Bon o bon chocolate 14g</name>
+		<name>Koh-Kae Salted Peanuts 42g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Koh-Kae Salted Peanuts 42g</name>
+		<name>Bon o bon chocolate 14g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

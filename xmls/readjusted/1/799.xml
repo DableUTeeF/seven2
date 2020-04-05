@@ -1,1 +1,62 @@
-<annotation><filename>799.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/799.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Jolly cola 25g</name><bndbox><xmin>373</xmin><ymin>221</ymin><xmax>924</xmax><ymax>915</ymax></bndbox></object><object><name>Protex propolis 65g</name><bndbox><xmin>695</xmin><ymin>724</ymin><xmax>1079</xmax><ymax>1633</ymax></bndbox></object><object><name>Pipo gummy filled 70g</name><bndbox><xmin>226</xmin><ymin>1188</ymin><xmax>738</xmax><ymax>1918</ymax></bndbox></object><object><name>Haribo goldbear</name><bndbox><xmin>25</xmin><ymin>803</ymin><xmax>317</xmax><ymax>1243</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>799.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/799.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>373</xmin>
+			<ymin>221</ymin>
+			<xmax>924</xmax>
+			<ymax>915</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jabjab gummy jelly soda poppu 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>695</xmin>
+			<ymin>724</ymin>
+			<xmax>1079</xmax>
+			<ymax>1633</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pipo gummy filled 70g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>226</xmin>
+			<ymin>1188</ymin>
+			<xmax>738</xmax>
+			<ymax>1918</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Haribo goldbear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>25</xmin>
+			<ymin>803</ymin>
+			<xmax>317</xmax>
+			<ymax>1243</ymax>
+		</bndbox>
+	</object>
+</annotation>

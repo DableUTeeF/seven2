@@ -1,1 +1,50 @@
-<annotation><filename>2429.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/2429.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Moccona Trio Gold 100g</name><bndbox><xmin>254</xmin><ymin>245</ymin><xmax>1055</xmax><ymax>969</ymax></bndbox></object><object><name>Hand!!!!</name><bndbox><xmin>39</xmin><ymin>0</ymin><xmax>367</xmax><ymax>535</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>4</xmin><ymin>520</ymin><xmax>264</xmax><ymax>1099</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>0</folder>
+	<filename>2429.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2429.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Khao shong 3 in 1 super rich 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>249</ymin>
+			<xmax>1080</xmax>
+			<ymax>1021</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>1</ymin>
+			<xmax>367</xmax>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cosmetics</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>520</ymin>
+			<xmax>264</xmax>
+			<ymax>1099</ymax>
+		</bndbox>
+	</object>
+</annotation>

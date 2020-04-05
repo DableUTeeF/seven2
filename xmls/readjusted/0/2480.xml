@@ -1,1 +1,14 @@
-<annotation><filename>2480.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/0/2480.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Jolly cola 25g</name><bndbox><xmin>80</xmin><ymin>52</ymin><xmax>784</xmax><ymax>984</ymax></bndbox></object><object><name>Jolly cola 25g</name><bndbox><xmin>66</xmin><ymin>403</ymin><xmax>655</xmax><ymax>1023</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>0</folder>
+	<filename>2480.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0/2480.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

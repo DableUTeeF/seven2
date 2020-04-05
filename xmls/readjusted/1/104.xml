@@ -1,1 +1,14 @@
-<annotation><filename>104.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/104.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Cosmetics</name><bndbox><xmin>554</xmin><ymin>279</ymin><xmax>900</xmax><ymax>874</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>491</xmin><ymin>861</ymin><xmax>785</xmax><ymax>1388</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>227</xmin><ymin>860</ymin><xmax>484</xmax><ymax>1256</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>220</xmin><ymin>312</ymin><xmax>491</xmax><ymax>827</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>13</xmin><ymin>654</ymin><xmax>223</xmax><ymax>989</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>129</xmin><ymin>1166</ymin><xmax>406</xmax><ymax>1647</ymax></bndbox></object><object><name>Benice 90ml</name><bndbox><xmin>359</xmin><ymin>1365</ymin><xmax>586</xmax><ymax>1887</ymax></bndbox></object><object><name>Cosmetics</name><bndbox><xmin>309</xmin><ymin>362</ymin><xmax>545</xmax><ymax>864</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>104.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/104.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

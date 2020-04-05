@@ -1,7 +1,7 @@
 <annotation>
-	<folder>New folder</folder>
+	<folder>3</folder>
 	<filename>2517.jpg</filename>
-	<path>C:\Users\Chief Engineer\Desktop\New folder\2517.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/3/2517.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Soffell Flora 80ml</name>
+		<name>Soffell natural spray 30ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

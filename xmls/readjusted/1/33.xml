@@ -1,1 +1,74 @@
-<annotation><filename>33.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/33.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Kitkat green tea 35g</name><bndbox><xmin>176</xmin><ymin>768</ymin><xmax>374</xmax><ymax>1091</ymax></bndbox></object><object><name>Mentos sour mix 37g</name><bndbox><xmin>168</xmin><ymin>467</ymin><xmax>427</xmax><ymax>712</ymax></bndbox></object><object><name>Dove volume conditioner 130ml</name><bndbox><xmin>351</xmin><ymin>216</ymin><xmax>639</xmax><ymax>576</ymax></bndbox></object><object><name>Mentos fruit 37g</name><bndbox><xmin>414</xmin><ymin>798</ymin><xmax>794</xmax><ymax>954</ymax></bndbox></object><object><name>Almond_Fried_56G</name><bndbox><xmin>1</xmin><ymin>491</ymin><xmax>196</xmax><ymax>854</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>33.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/33.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>768</ymin>
+			<xmax>374</xmax>
+			<ymax>1091</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mentos sour mix 37g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>168</xmin>
+			<ymin>467</ymin>
+			<xmax>427</xmax>
+			<ymax>712</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mentos mint 37g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>351</xmin>
+			<ymin>216</ymin>
+			<xmax>639</xmax>
+			<ymax>576</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mentos fruit 37g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>414</xmin>
+			<ymin>798</ymin>
+			<xmax>794</xmax>
+			<ymax>954</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Almond_Fried_56G</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>491</ymin>
+			<xmax>196</xmax>
+			<ymax>854</ymax>
+		</bndbox>
+	</object>
+</annotation>

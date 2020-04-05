@@ -1,1 +1,50 @@
-<annotation><filename>1770.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/2/1770.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Abacus pink 30g</name><bndbox><xmin>649</xmin><ymin>909</ymin><xmax>962</xmax><ymax>1165</ymax></bndbox></object><object><name>Lotte xylitol lime mint 11.6g</name><bndbox><xmin>182</xmin><ymin>968</ymin><xmax>506</xmax><ymax>1266</ymax></bndbox></object><object><name>Tawandang roll seaweed original 5g</name><bndbox><xmin>466</xmin><ymin>632</ymin><xmax>829</xmax><ymax>864</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>2</folder>
+	<filename>1770.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2/1770.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Abacus pink 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>649</xmin>
+			<ymin>909</ymin>
+			<xmax>962</xmax>
+			<ymax>1165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lotte xylitol lime mint 11.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>182</xmin>
+			<ymin>968</ymin>
+			<xmax>506</xmax>
+			<ymax>1266</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Milo serials box 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>466</xmin>
+			<ymin>632</ymin>
+			<xmax>829</xmax>
+			<ymax>864</ymax>
+		</bndbox>
+	</object>
+</annotation>
