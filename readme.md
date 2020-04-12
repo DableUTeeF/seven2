@@ -23,3 +23,9 @@ The `predefined_classes.txt` for use in labelImg is in anns/
 |1|Euclidean Distant|1.0|--|
 |2|Invert Cosine Similarity|cosine(0.5)|--|
 |3|Euclidean Distant|0.7|--|
+
+## Normal Detector
+|No|Method|mAP|Weighted|
+|---|---|---|---|
+|1|Retinanet|0.2711|0.2490|
+|2|Yolo|--|--|

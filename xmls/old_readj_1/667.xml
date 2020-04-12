@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>667.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\667.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Strepsil Orange (6 tablets)</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>916</xmin>
+			<ymin>505</ymin>
+			<xmax>1080</xmax>
+			<ymax>1007</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Strepsil Honey &amp; Lemon (6 tablets)</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>429</xmin>
+			<ymin>1096</ymin>
+			<xmax>681</xmax>
+			<ymax>1538</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Strepsil Citrus Lemon (6 tablets)</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>552</ymin>
+			<xmax>397</xmax>
+			<ymax>978</ymax>
+		</bndbox>
+	</object>
+</annotation>

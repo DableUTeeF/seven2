@@ -1,0 +1,38 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1526.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\1526.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>696</ymin>
+			<xmax>157</xmax>
+			<ymax>1337</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Nescafe espresso roast can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>1010</ymin>
+			<xmax>655</xmax>
+			<ymax>1213</ymax>
+		</bndbox>
+	</object>
+</annotation>

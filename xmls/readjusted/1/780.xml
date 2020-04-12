@@ -1,0 +1,62 @@
+<annotation>
+	<folder>1</folder>
+	<filename>780.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\780.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Jabjab gummy jelly soda poppu 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>373</xmin>
+			<ymin>784</ymin>
+			<xmax>875</xmax>
+			<ymax>1165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pipo gummy filled 70g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>388</xmin>
+			<ymin>1181</ymin>
+			<xmax>912</xmax>
+			<ymax>1673</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 55g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>777</ymin>
+			<xmax>339</xmax>
+			<ymax>1207</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Haribo goldbear</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>1314</ymin>
+			<xmax>341</xmax>
+			<ymax>1752</ymax>
+		</bndbox>
+	</object>
+</annotation>

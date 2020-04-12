@@ -47,7 +47,7 @@ if __name__ == '__main__':
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     image_dict = {}
-    for set_name in [0]:
+    for set_name in [1]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         anns_path = f'/home/palm/PycharmProjects/seven2/xmls/revised/{set_name}'
         exiting_anns = [os.path.basename(x) for x in os.listdir(anns_path)]
@@ -82,7 +82,7 @@ if __name__ == '__main__':
             for box, score, label in zip(boxes[0], scores[0], labels[0]):
                 # scores are sorted so we can break
                 if score < 0.5:
-                    continue
+                    break
                 b = box.astype(int)
                 minimum = (float('inf'), 0)
                 with torch.no_grad():

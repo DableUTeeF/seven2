@@ -275,13 +275,13 @@ def create_csv_training_instances(train_csv, test_csv, class_csv, with_wh=False)
     for k in train_image_data:
         image_data = train_image_data[k]
         ints = {'filename': k, 'object': []}
+        if with_wh:
+            x = cv2.imread(k)
+            height, width, _ = x.shape
+            ints['width'] = width
+            ints['height'] = height
         for i, obj in enumerate(image_data):
             o = {'xmin': obj['x1'], 'xmax': obj['x2'], 'ymin': obj['y1'], 'ymax': obj['y2'], 'name': obj['class']}
-            if with_wh:
-                x = cv2.imread(k)
-                height, width, _ = x.shape
-                o['width'] = width
-                o['height'] = height
             ints['object'].append(o)
             if i + 1 > max_box_per_image:
                 max_box_per_image = i + 1
@@ -290,13 +290,13 @@ def create_csv_training_instances(train_csv, test_csv, class_csv, with_wh=False)
     for k in test_image_data:
         image_data = test_image_data[k]
         ints = {'filename': k, 'object': []}
+        if with_wh:
+            x = cv2.imread(k)
+            height, width, _ = x.shape
+            ints['width'] = width
+            ints['height'] = height
         for i, obj in enumerate(image_data):
             o = {'xmin': obj['x1'], 'xmax': obj['x2'], 'ymin': obj['y1'], 'ymax': obj['y2'], 'name': obj['class']}
-            if with_wh:
-                x = cv2.imread(k)
-                height, width, _ = x.shape
-                o['width'] = width
-                o['height'] = height
             ints['object'].append(o)
             if i + 1 > max_box_per_image:
                 max_box_per_image = i + 1

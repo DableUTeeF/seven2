@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>278.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\278.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Moccona Trio Espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>366</xmin>
+			<ymin>429</ymin>
+			<xmax>760</xmax>
+			<ymax>932</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Khao shong 3 in 1 espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>398</xmin>
+			<ymin>933</ymin>
+			<xmax>802</xmax>
+			<ymax>1663</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio Gold 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>728</xmin>
+			<ymin>553</ymin>
+			<xmax>1080</xmax>
+			<ymax>1377</ymax>
+		</bndbox>
+	</object>
+</annotation>

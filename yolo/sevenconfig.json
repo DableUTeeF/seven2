@@ -3,17 +3,17 @@
     "backend": "B0DW",
     "min_input_size": 416, "comment1": "256 might be better",
     "max_input_size": 608,
-    "anchors": [9,20, 11,19, 13,14, 14,17, 15,12, 16,26, 22,19, 23,40, 30,30],
+    "anchors": [82,108, 86,56, 128,75, 140,122, 164,45, 166,175, 207,80, 232,127, 270,201],
     "labels": []
   },
   "train": {
-    "train_csv": "/home/palm/PycharmProjects/seven2/anns/ann.csv",
+    "train_csv": "/home/palm/PycharmProjects/seven2/anns/annotation.csv",
     "classes_csv": "/home/palm/PycharmProjects/seven2/anns/classes.csv",
     "train_times": 10,
-    "batch_size": 4,
-    "opt": "sgd",
-    "learning_rate": 1e-2,
-    "nb_epochs": 30,
+    "batch_size": 2,
+    "opt": "adam",
+    "learning_rate": 1e-3,
+    "nb_epochs": 10,
     "warmup_epochs": 0,
     "ignore_thresh": 0.5,
     "gpus": "0",
@@ -23,7 +23,7 @@
     "xywh_scale": 1,
     "class_scale": 5,
     "tensorboard_dir": "logs/",
-    "saved_weights_name": "snapshots/B5DW_seven_2/{epoch:02d}_{val_loss:.4f}_{loss:.4f}.h5",
+    "saved_weights_name": "snapshots/yolo/{epoch:02d}_{val_loss:.4f}_{loss:.4f}.h5",
     "debug": false
   },
   "valid": {

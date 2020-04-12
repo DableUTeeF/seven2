@@ -1,0 +1,38 @@
+<annotation>
+	<folder>1</folder>
+	<filename>401.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\401.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Birdy 3 in 1 robusta 62g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>862</ymin>
+			<xmax>331</xmax>
+			<ymax>1323</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>1040</ymin>
+			<xmax>920</xmax>
+			<ymax>1591</ymax>
+		</bndbox>
+	</object>
+</annotation>

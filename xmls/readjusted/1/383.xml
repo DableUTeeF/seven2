@@ -1,0 +1,38 @@
+<annotation>
+	<folder>1</folder>
+	<filename>383.jpg</filename>
+	<path>E:\Work\PIM\DeepLearning\data1\1\383.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>7 select cooly fresh 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1033</ymin>
+			<xmax>460</xmax>
+			<ymax>1704</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>7 select mineral 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>230</ymin>
+			<xmax>1025</xmax>
+			<ymax>1024</ymax>
+		</bndbox>
+	</object>
+</annotation>

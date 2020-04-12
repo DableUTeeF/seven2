@@ -134,7 +134,7 @@ if __name__ == '__main__':
     argparser.add_argument(
         '-c',
         '--conf',
-        default='./algeaconfig.json',
+        default='./sevenconfig.json',
         help='path to configuration file')
     argparser.add_argument(
         '-a',

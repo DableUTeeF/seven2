@@ -10,15 +10,15 @@ def check_bad(file):
 
 if __name__ == '__main__':
     open('anns/val_ann.csv', 'w')
-    open('anns/c.csv', 'w')
+    open('anns/classes.csv', 'w')
     classes = []
-    with open('anns/ann.csv', 'w') as wr:
+    with open('anns/annotation.csv', 'w') as wr:
         for set_name in [0, 1, 2, 3]:
             folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
             path = f'./xmls/readjusted/{set_name}'
             for file in os.listdir(path):
                 val = False
-                if check_bad(file):
+                if set_name == 1:
                     val = True
                 tree = ET.parse(os.path.join(path, file))
                 if len(tree.findall('object')) == 0:
@@ -42,7 +42,7 @@ if __name__ == '__main__':
                     if 'object' in elem.tag:
                         if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
-                                with open('anns/c.csv', 'a') as cwr:
+                                with open('anns/classes.csv', 'a') as cwr:
                                     cwr.write(f'{cls},{len(classes)}\n')
                                 classes.append(cls)
                             ln = f'{impath},{xmin},{ymin},{xmax},{ymax},{cls}'
@@ -87,7 +87,7 @@ if __name__ == '__main__':
                         ymax = elem.text
                 if 1: # cls != 'obj':
                     if cls not in classes:
-                        with open('anns/c.csv', 'a') as cwr:
+                        with open('anns/classes.csv', 'a') as cwr:
                             cwr.write(f'{cls},{len(classes)}\n')
                         classes.append(cls)
                     ln = f'{impath},{xmin},{ymin},{xmax},{ymax},{cls}'
