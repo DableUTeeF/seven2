@@ -28,7 +28,7 @@ keras.backend.set_session(sess)
 
 
 def pad(cropped_image, b):
-    x1, y1 , x2, y2 = b
+    x1, y1, x2, y2 = b
     if x2 - x1 > y2 - y1:
         p = ((x2 - x1) - (y2 - y1)) // 2
         cropped_image = cv2.copyMakeBorder(cropped_image, p, p, 0, 0, cv2.BORDER_CONSTANT)
@@ -36,6 +36,7 @@ def pad(cropped_image, b):
         p = ((y2 - y1) - (x2 - x1)) // 2
         cropped_image = cv2.copyMakeBorder(cropped_image, 0, 0, p, p, cv2.BORDER_CONSTANT)
     return cropped_image
+
 
 if __name__ == '__main__':
     model = Model(ResNet(predict=True))
@@ -118,8 +119,11 @@ if __name__ == '__main__':
 
     pk.dump([all_detections, all_annotations], open('siamese_cache.pk', 'wb'))
     average_precisions, total_instances = evaluate(all_detections, all_annotations, len(names_to_labels))
-    print('mAP using the weighted average of precisions among classes: {:.4f}'.format(
-        sum([a * b for a, b in zip(total_instances, average_precisions)]) / sum(total_instances)))
-    for label, average_precision in average_precisions.items():
-        print(['ov', 'mif'][label] + ': {:.4f}'.format(average_precision))
-    print('mAP: {:.4f}'.format(sum(average_precisions) / sum(x for x in total_instances)))  # mAP: 0.5000
+
+    x = 0  # precision summary of every class
+    count = 0  # count only the classes that in xmls
+    for a in average_precisions:
+        if hasattr(average_precisions[a], 'dtype'):
+            x += average_precisions[a]
+            count += 1
+    print('mAP:', x / count)

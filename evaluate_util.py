@@ -23,14 +23,12 @@ def evaluate(all_detections, all_annotations, num_classes, iou_threshold=0.5):
     average_precisions = {}
     total_instances = []
     for label in range(num_classes):
-        print()
         false_positives = np.zeros((0,))
         true_positives = np.zeros((0,))
         scores = np.zeros((0,))
         num_annotations = 0.0
 
         for i in range(len(all_annotations)):
-            print(i, end='\r')
             detections = all_detections[i][label]
             annotations = np.array(all_annotations[i][label])
             num_annotations += annotations.shape[0]

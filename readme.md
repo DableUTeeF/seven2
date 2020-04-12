@@ -12,7 +12,7 @@ The `predefined_classes.txt` for use in labelImg is in anns/
 ## Query image selection method
 |No|Train|Query|Result|
 |---|---|---|---|
-|1|All|All|---|
+|1|All|All|0.4517|
 |2|All|Random Selected|---|
 |3|Random Selected|Random Selected|---|
 |4|Average Nearest Selected|Average Nearest Selected|---|
@@ -25,7 +25,13 @@ The `predefined_classes.txt` for use in labelImg is in anns/
 |3|Euclidean Distant|0.7|--|
 
 ## Normal Detector
-|No|Method|mAP|Weighted|
-|---|---|---|---|
-|1|Retinanet|0.2711|0.2490|
-|2|Yolo|--|--|
+|No|Method|mAP|
+|---|---|---|
+|1|Retinanet|0.2711|
+|2|Yolo|--|
+
+## References
+- Repo cloned here
+  * [Keras-Retinanet] (https://github.com/fizyr/keras-retinanet)
+  * [Keras-YoloV3] (https://github.com/experiencor/keras-yolo3)
+  * [Keras-EfficientNet] (https://github.com/titu1994/keras-efficientnets)
