@@ -46,7 +46,7 @@ def memory_image(query, image_dict, transform):
     return image_dict, image_dict[query]
 
 
-if __name__ == '__main__':
+def predict():
     model = Model(ResNet(predict=True))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
@@ -55,7 +55,7 @@ if __name__ == '__main__':
                   ContrastiveLoss(),
                   metric=None,
                   device='cuda')
-    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/4/epoch_0_0.016697616640688282.pth')
+    model.load_weights('/home/palm/PycharmProjects/seven2/snapshots/pairs/5/epoch_1_0.012463876953125.pth')
     model.model.eval()
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -64,10 +64,8 @@ if __name__ == '__main__':
                                     transforms.ToTensor(),
                                     normalize])
 
-    lsh = LSHash(hash_size=16, input_dim=1024, num_hashtables=5)
-
     target_path = '/home/palm/PycharmProjects/seven/images/test6/train'
-    query_path = '/home/palm/PycharmProjects/seven/images/cropped7/train'
+    query_path = '/home/palm/PycharmProjects/seven/images/cropped6/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     predicted_dict = {}
@@ -75,6 +73,8 @@ if __name__ == '__main__':
     count = 0
     with torch.no_grad():
         for target_image_folder in os.listdir(target_path):
+            if target_image_folder not in os.listdir(query_path):
+                continue
             predicted_dict[target_image_folder] = {}
             for target_image_path in os.listdir(os.path.join(target_path, target_image_folder)):
                 count += 1
@@ -87,21 +87,51 @@ if __name__ == '__main__':
                 minimum = (float('inf'), 0)
                 for query_folder in os.listdir(query_path):
                     for query_image_path in os.listdir(os.path.join(query_path, query_folder)):
-                        t = time.time()
                         query = os.path.join(query_path, query_folder, query_image_path)
-                        t1 = time.time() - t
                         cache_dict, query_features = memory_cache(cache_dict, model.model, query, os.path.join(cache_path, query_folder, query_image_path + '.pth'), transform)
-                        t2 = time.time() - t
-                        y = lsh.euclidean_dist(target_features.cpu().numpy()[0], query_features.cpu().numpy()[0])
-                        t3 = time.time() - t
+                        y = LSHash.euclidean_dist(target_features.cpu().numpy()[0], query_features.cpu().numpy()[0])
                         if y < minimum[0]:
                             minimum = (y, query_folder)
-                print(minimum, target_image_path)
-                if minimum[0] < 1.:
-                    predicted_dict[target_image_folder][target_image_path] = minimum[1]
-                else:
-                    predicted_dict[target_image_folder][target_image_path] = 'unknown'
+                print(*minimum, target_image_folder)
+                predicted_dict[target_image_folder][target_image_path] = minimum[1]
                 if minimum[1] == target_image_folder:
                     correct += 1
     print(count/correct)
     pk.dump(predicted_dict, open('cls_eval.pk', 'wb'))
+
+if __name__ == '__main__':
+    # predict()
+    import pickle as pk
+    import os
+    from sklearn.metrics import confusion_matrix
+    import matplotlib.pyplot as plt
+    import numpy as np
+    a = pk.load(open('cls_eval.pk', 'rb'))
+    labels_to_names = os.listdir('/home/palm/PycharmProjects/seven/images/cropped6/train')
+    y_true = [i +1 for i in range(len(labels_to_names))]
+    y_pred = [i +1 for i in range(len(labels_to_names))]
+    correct = 0
+    count = 0
+    class_correct = {}
+    for folder in a:
+        class_correct[folder] = [0, len('/home/palm/PycharmProjects/seven/images/cropped6/train/'+folder)]
+        for image in a[folder]:
+            y_true.append(labels_to_names.index(folder))
+            y_pred.append(labels_to_names.index(a[folder][image]))
+            count += 1
+            if a[folder][image] == folder:
+                correct += 1
+                class_correct[folder][0] += 1
+    f = confusion_matrix(y_true, y_pred)
+    w = np.argwhere(f > 20)
+    sorted_cc = {}
+    for folder in class_correct:
+        print(folder, class_correct[folder][0]/class_correct[folder][1], class_correct[folder][1])
+    print(correct / count)
+    ticks = np.linspace(0, 173, num=174)
+    plt.imshow(f, interpolation='none')
+    plt.colorbar()
+    plt.xticks(ticks, fontsize=6)
+    plt.yticks(ticks, fontsize=6)
+    plt.grid(True)
+    plt.show()

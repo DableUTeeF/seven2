@@ -1,154 +1,57 @@
-7 select cooly fresh 350ml
-Abacus pink 30g
-Abacus stick 15g
-Abacus yellow 30g
-Almond_fried_56g
-Almond_Fried_56G
-Amira_blue
-Amira plum 37.5g
-Amira tamarind 42g
-Baby mild sweety pink 50g
-Baby mild ultra mild 125ml
-Baygon Lavender 12 coils
-Benice 90ml
-Bennett Orange soap (6 Pack)
-Birdy 3 in 1 robusta 62g
-Birdy robusta can 180ml
-Bissin 36g
-Blue Goose 13 (lol) 12 coils
-Bon o bon chocolate 14g
-Brasso 100ml
-Break 23.5g
-Break SUPA 30g
-Carnation 388g
-Chaokoh coconut milk 250ml
-Citronella mosquito repellant 75ml
-Clorets berry mint 33.6g
-Clorets lemon mint 33.6g
-Corifine C 14.4g
-Cosmetics
-Cougar milk 18.9g
-Cream o choco plus cappucino 60g
-Cream o vanila 45g
-Crystal 600ml
-C-vit lemon 140 ml
-Daiwa dishwashing liquid lemon 160ml
-Darlie green
-Dentiste plus white 50g
-Dentyne ice 11.2g
-Dentyne splash mint 15.2g
-Dentyne splash straw 15.2g
-Dettol original 65g
-Dettol pro fresh 65g
-Diamond grains original 38g
-Dove volume conditioner 130ml
-Elephant power glues 3g
-Euro cake custard
-Ferrero 37.5g
-Ferrero 62.5g
-Ferrero 100g
-Fruit mania pitted red dates 60g
-Fun-o chocolate cream 45g
-Fun-o custard 45g
-Fun-o power 50g
-G-soft blue pen
-Hacks regular 18.9g
-Hand!!!!
-Haribo goldbear
-Head and shoulder shampoo pink 150 ml
-Hershey's Nugget Dark 28g
-Jabjab gummy jelly soda poppu 50g
-Jolly bear 25g
-Jolly bear 55g
-Jolly cola 25g
-Jolly cola 55g
-Kellogg's corn flakes 25g
-Khao shong 3 in 1 espresso 90g
-Khao shong 3 in 1 super rich 100g
-Kids scissor school work
-Kitkat green tea 35g
-Kitkat red 35g
-Koh-Kae Salted Peanuts 42g
-Koko_krunch_box_25g
-Koko_krunch_cup 30g
-Lactacyd natural care 60ml
-Lancer wave 0.5mm 2CT
-Latex glue 3.5oz
-Lay_ori_27g
-Lays BBQ 27g
-Lays squid 27g
-Losan cocoa 28g
-Losan milk 28g
-Lotte xylitol fresh mint 11.6g
-Lotte xylitol lime mint 11.6g
-Louis tape12mmx9m
-Lush 22.4g
-Lypon-F 150ml
-Macha arabus 200ml
-Mamipoko wipes Blue
-Mentos fruit 37g
-Mentos mint 37g
-Mentos sour mix 37g
-Me-O tuna 450g
-Me-O tuna and chicken in jelly 80g
-Me-O Tuna in jelly 80g
-Me-O Tuna in jelly can 80g
-Milo nuggets 30g
-Milo serials box 25g
-M&M peanut 40g
-Moccona Trio Espresso 90g
-Moccona Trio Gold 100g
-Moccona Trio rich and smooth 90g
-Mymint ball 19.6g
-Nescafe_blend'nbrew_espresso_157.5g
-Nescafe_blend'nbrew_rich_aroma_157.5g
-Nescafe espresso roast can 180ml
-Ole super sour 17.5g
-Oreo original 29.4g
-Papermate liquid 7ml
-Paprika 32g
-Parrot herbel organic pink 70g
-Pentel soft erasor
-Pipo gummy filled 70g
-Pocky chocolate 45g
-Pocky cookie and cream 45g
-Pocky macha 45g
-Pocky strawberry 45g
-Protex propolis 65g
-Quantum gelo plus 2 pieces
-Ranger scout 10 coils
-Rejoice conditioner 120ml
-Roller coaster cheese 28g
-Rosdee pork 30g
-Scotch packing tape 48mmx40m
-Scott extra roll tissue
-Sharpie permanent marker 2CT
-Shokubutsu chinese milk 100ml
-Shokubutsu ginkgo 100ml
-Soffel Flora 80ml
-Soffel fresh 80ml
-Soffell natural spray 30ml
-Soffel Lotion flora 8ml
-Soffel lotion fresh 60ml
-Sofy cooling fresh superslim 6 pieces
-Sponser original 250ml
-Staedtler eraser 2 pieces
-Sugus green 45g
-Sugus red 45g
-Super coffee 3 in 1 60g
-Take-it Black
-Take-it Red
-Taokaenoi bake red 1.65g
-Taokaenoi Big Sheet Classic 3.5g
-Taokeanoi seaweed big bag 12g
-Tawandang roll seaweed original 5g
-TD protractor
-Tong Garden Salted Almonds 35g
-Tonggarden salted broad beans 90g
-Tonggarden salted pistachios 40g
-Toppo cocoa pretzel stick 11g
-Trident recaldent 11.2g
-Uhu glues 8.2g
-United Almond 19g
-Vanish Oxiaction 30g
-Vaseline healthy white 75g
+Lotte xylitol fresh mint 11.6g 0.4117647058823529 85
+Lays squid 27g 0.043478260869565216 69
+Pipo gummy filled 70g 0.39473684210526316 76
+Mentos fruit 37g 0.16901408450704225 71
+Cream o vanila 45g 0.0136986301369863 73
+Lays BBQ 27g 0.16417910447761194 67
+Lotte xylitol lime mint 11.6g 0.17857142857142858 84
+Soffel Flora 80ml 0.5 72
+Hand!!!! 0.36507936507936506 63
+Jolly cola 55g 0.43478260869565216 69
+Khao shong 3 in 1 espresso 90g 0.3176470588235294 85
+Nescafe espresso roast can 180ml 0.3563218390804598 87
+Super coffee 3 in 1 60g 0.21794871794871795 78
+Abacus pink 30g 0.02857142857142857 70
+Moccona Trio Gold 100g 0.2987012987012987 77
+Khao shong 3 in 1 super rich 100g 0.2840909090909091 88
+Fun-o chocolate cream 45g 0.0375 80
+Fun-o power 50g 0.04285714285714286 70
+Kellogg's corn flakes 25g 0.6125 80
+Pocky macha 45g 0.18571428571428572 70
+Lay_ori_27g 0.24242424242424243 66
+Dentyne splash straw 15.2g 0.4074074074074074 81
+Diamond grains original 38g 0.024390243902439025 82
+Lypon-F 150ml 0.27941176470588236 68
+C-vit lemon 140 ml 0.2328767123287671 73
+Oreo original 29.4g 0.08108108108108109 74
+Dettol original 65g 0.10810810810810811 74
+Vaseline healthy white 75g 0.20987654320987653 81
+Pocky strawberry 45g 0.09333333333333334 75
+Soffel lotion fresh 60ml 0.10126582278481013 79
+Milo nuggets 30g 0.18309859154929578 71
+Rejoice conditioner 120ml 0.3375 80
+Trident recaldent 11.2g 0.19230769230769232 78
+Break SUPA 30g 0.028985507246376812 69
+Moccona Trio Espresso 90g 0.2875 80
+Nescafe_blend'nbrew_rich_aroma_157.5g 0.10869565217391304 92
+Moccona Trio rich and smooth 90g 0.3448275862068966 87
+Pocky cookie and cream 45g 0.13580246913580246 81
+Jabjab gummy jelly soda poppu 50g 0.3409090909090909 88
+Dentyne splash mint 15.2g 0.075 80
+Pocky chocolate 45g 0.20270270270270271 74
+Jolly cola 25g 0.3188405797101449 69
+Birdy robusta can 180ml 0.21794871794871795 78
+Milo serials box 25g 0.28 75
+United Almond 19g 0.2777777777777778 72
+Koko_krunch_cup 30g 0.13513513513513514 74
+Koko_krunch_box_25g 0.25675675675675674 74
+Jolly bear 55g 0.043478260869565216 69
+7 select cooly fresh 350ml 0.14814814814814814 81
+Sponser original 250ml 0.0 77
+Clorets lemon mint 33.6g 0.08860759493670886 79
+Abacus yellow 30g 0.027777777777777776 72
+Fun-o custard 45g 0.041666666666666664 72
+Nescafe_blend'nbrew_espresso_157.5g 0.022222222222222223 90
+Jolly bear 25g 0.14492753623188406 69
+Haribo goldbear 0.42857142857142855 70
+Birdy 3 in 1 robusta 62g 0.21518987341772153 79
