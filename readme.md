@@ -1,6 +1,6 @@
 # Installation
 Note: The tested environment is Ubuntu 18.04 and Python 3.6
-* Install RetinaNet dependencies by `pip install -r reqiorement.txt`
+* Install RetinaNet dependencies by `pip install -r requirement.txt`
 * Install Siamese Network dependencies by `pip install torch torchvision` and `pip install dependencies/natthaphon-1.0.0-py3-none-any.whl`
 
 # How to train
