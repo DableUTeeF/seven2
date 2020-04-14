@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>176.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\176.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/176.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,52 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Moccona Trio rich and smooth 90g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>347</xmin>
-			<ymin>793</ymin>
-			<xmax>1080</xmax>
-			<ymax>1806</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Birdy 3 in 1 robusta 62g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>474</ymin>
-			<xmax>237</xmax>
-			<ymax>1069</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Super coffee 3 in 1 60g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>6</xmin>
-			<ymin>1173</ymin>
-			<xmax>428</xmax>
-			<ymax>1822</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Kitkat red 35g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>168</xmin>
-			<ymin>380</ymin>
-			<xmax>628</xmax>
-			<ymax>1240</ymax>
-		</bndbox>
-	</object>
 </annotation>

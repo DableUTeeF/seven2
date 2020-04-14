@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>534.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\534.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/534.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Uhu glues 8.2g</name>
+		<name>C-vit lemon 140 ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

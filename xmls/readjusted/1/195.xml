@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>195.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\195.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/195.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -60,7 +60,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Take-it Red</name>
+		<name>Pocky chocolate 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

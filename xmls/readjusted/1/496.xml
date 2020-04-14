@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>496.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\496.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/496.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Ichitan Green Tea Lemon 420ml</name>
+		<name>Ichitan Green Tea Genmai 420ml</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

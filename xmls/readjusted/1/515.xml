@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>515.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\515.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/515.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Yenyen Red 420ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>48</xmin>
-			<ymin>485</ymin>
-			<xmax>737</xmax>
-			<ymax>1080</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Yenyen Yellow 420ml</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1097</ymin>
-			<xmax>335</xmax>
-			<ymax>1739</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>C-vit lemon 140 ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>346</xmin>
-			<ymin>1154</ymin>
-			<xmax>794</xmax>
-			<ymax>1880</ymax>
-		</bndbox>
-	</object>
 </annotation>

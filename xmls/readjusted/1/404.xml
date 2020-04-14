@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>404.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\404.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/404.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<name>Nescafe espresso roast can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

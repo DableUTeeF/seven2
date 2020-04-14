@@ -25,7 +25,7 @@ def save_cache(model, image, cachepath):
 
 def load_cache(model, image, cachepath):
     if os.path.exists(cachepath):
-        return torch.load(cachepath)
+        return torch.load(cachepath, map_location=torch.device('cpu'))
     return save_cache(model, image, cachepath)
 
 

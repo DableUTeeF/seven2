@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>172.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\172.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/172.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,64 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Birdy 3 in 1 robusta 62g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>101</xmin>
-			<ymin>241</ymin>
-			<xmax>740</xmax>
-			<ymax>809</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>United Almond 19g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>553</xmin>
-			<ymin>1367</ymin>
-			<xmax>1073</xmax>
-			<ymax>1607</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Khao shong 3 in 1 espresso 90g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>3</xmin>
-			<ymin>811</ymin>
-			<xmax>230</xmax>
-			<ymax>1450</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Nescafe_blend'nbrew_rich_aroma_157.5g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>338</xmin>
-			<ymin>638</ymin>
-			<xmax>1080</xmax>
-			<ymax>1379</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Moccona Trio rich and smooth 90g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>178</xmin>
-			<ymin>1538</ymin>
-			<xmax>961</xmax>
-			<ymax>1920</ymax>
-		</bndbox>
-	</object>
 </annotation>

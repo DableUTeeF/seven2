@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>442.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\442.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/442.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,9 +29,9 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>349</xmin>
-			<ymin>1439</ymin>
-			<xmax>854</xmax>
+			<xmin>305</xmin>
+			<ymin>1483</ymin>
+			<xmax>804</xmax>
 			<ymax>1920</ymax>
 		</bndbox>
 	</object>
@@ -57,6 +57,18 @@
 			<ymin>1202</ymin>
 			<xmax>481</xmax>
 			<ymax>1586</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>518</xmin>
+			<ymin>287</ymin>
+			<xmax>1052</xmax>
+			<ymax>927</ymax>
 		</bndbox>
 	</object>
 </annotation>

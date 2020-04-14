@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>345.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\345.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/345.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>610</xmin>
+			<xmin>662</xmin>
 			<ymin>965</ymin>
-			<xmax>1072</xmax>
-			<ymax>1284</ymax>
+			<xmax>1052</xmax>
+			<ymax>1285</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>374</xmin>
+			<xmin>412</xmin>
 			<ymin>673</ymin>
 			<xmax>779</xmax>
-			<ymax>1058</ymax>
+			<ymax>1019</ymax>
 		</bndbox>
 	</object>
 </annotation>

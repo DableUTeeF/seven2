@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>437.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\437.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/437.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Nescafe espresso roast can 180ml</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1273</ymin>
-			<xmax>515</xmax>
-			<ymax>1565</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Birdy robusta can 180ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>99</xmin>
-			<ymin>796</ymin>
-			<xmax>802</xmax>
-			<ymax>1181</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>United Almond 19g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>573</xmin>
-			<ymin>1177</ymin>
-			<xmax>878</xmax>
-			<ymax>1920</ymax>
-		</bndbox>
-	</object>
 </annotation>

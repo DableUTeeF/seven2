@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>302.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\302.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/302.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>394</xmin>
-			<ymin>431</ymin>
+			<ymin>415</ymin>
 			<xmax>665</xmax>
-			<ymax>1030</ymax>
+			<ymax>980</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -38,13 +38,13 @@
 	<object>
 		<name>Khao shong 3 in 1 super rich 100g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>575</xmin>
-			<ymin>829</ymin>
-			<xmax>1076</xmax>
-			<ymax>1401</ymax>
+			<xmin>579</xmin>
+			<ymin>907</ymin>
+			<xmax>1080</xmax>
+			<ymax>1479</ymax>
 		</bndbox>
 	</object>
 	<object>

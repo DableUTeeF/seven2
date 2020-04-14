@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>435.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\435.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/435.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Carnation 388g</name>
+		<name>Birdy robusta can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

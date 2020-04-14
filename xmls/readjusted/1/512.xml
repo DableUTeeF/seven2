@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>512.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\512.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/512.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>120</xmin>
-			<ymin>511</ymin>
-			<xmax>855</xmax>
-			<ymax>875</ymax>
+			<xmin>140</xmin>
+			<ymin>485</ymin>
+			<xmax>854</xmax>
+			<ymax>869</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -38,13 +38,13 @@
 	<object>
 		<name>Yenyen Yellow 420ml</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1005</ymin>
-			<xmax>378</xmax>
-			<ymax>1851</ymax>
+			<xmin>6</xmin>
+			<ymin>993</ymin>
+			<xmax>428</xmax>
+			<ymax>1831</ymax>
 		</bndbox>
 	</object>
 </annotation>

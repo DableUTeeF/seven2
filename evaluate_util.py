@@ -7,10 +7,12 @@ class DotDict(dict):
         return self[item]
 
 
-def all_annotation_from_instance(instance, names_to_labels):
+def all_annotation_from_instance(instance, names_to_labels, known_classes=None):
     all_annotation = [[] for _ in names_to_labels]
     for obj in instance['object']:
         if obj['name'] == 'obj':
+            continue
+        if known_classes and obj['name'] not in known_classes:
             continue
         all_annotation[names_to_labels[obj['name']]].append([obj['xmin'], obj['ymin'], obj['xmax'], obj['ymax']])
     return np.array(all_annotation)

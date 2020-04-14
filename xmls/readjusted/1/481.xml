@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>481.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\481.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/481.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>864</ymin>
-			<xmax>203</xmax>
-			<ymax>1662</ymax>
+			<ymin>876</ymin>
+			<xmax>202</xmax>
+			<ymax>1674</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,22 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>197</xmin>
-			<ymin>361</ymin>
+			<xmin>262</xmin>
+			<ymin>287</ymin>
 			<xmax>1080</xmax>
-			<ymax>869</ymax>
+			<ymax>871</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>Ichitan Green Tea Genmai 420ml</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>231</xmin>
-			<ymin>970</ymin>
-			<xmax>1080</xmax>
-			<ymax>1882</ymax>
+			<xmin>211</xmin>
+			<ymin>996</ymin>
+			<xmax>1060</xmax>
+			<ymax>1908</ymax>
 		</bndbox>
 	</object>
 </annotation>

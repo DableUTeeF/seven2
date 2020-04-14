@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>764.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\764.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/764.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -60,14 +60,14 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Jolly bear 55g</name>
+		<name>Haribo goldbear</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>321</xmin>
+			<xmin>211</xmin>
 			<ymin>1496</ymin>
-			<xmax>804</xmax>
+			<xmax>694</xmax>
 			<ymax>1920</ymax>
 		</bndbox>
 	</object>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>1488.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\1488.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/1488.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,16 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Loreal Elseve Smoothing Shampoo</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>446</xmin>
-			<ymin>1096</ymin>
-			<xmax>843</xmax>
-			<ymax>1413</ymax>
-		</bndbox>
-	</object>
 </annotation>

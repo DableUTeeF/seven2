@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>693.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\693.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/693.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Scott extra roll tissue</name>
+		<name>Strepsil Citrus Lemon (6 tablets)</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

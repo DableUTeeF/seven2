@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>235.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\235.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/235.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Halls mentho-lyptus 22.4g</name>
+		<name>Oreo original 29.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>363</xmin>
-			<ymin>430</ymin>
-			<xmax>1019</xmax>
-			<ymax>1216</ymax>
+			<xmin>353</xmin>
+			<ymin>488</ymin>
+			<xmax>1009</xmax>
+			<ymax>1274</ymax>
 		</bndbox>
 	</object>
 	<object>

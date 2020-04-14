@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>206.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\206.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/206.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,64 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Pocky strawberry 45g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>466</xmin>
-			<ymin>887</ymin>
-			<xmax>1069</xmax>
-			<ymax>1688</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Pocky chocolate 45g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>150</xmin>
-			<ymin>1180</ymin>
-			<xmax>580</xmax>
-			<ymax>1885</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Milo serials box 25g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>900</ymin>
-			<xmax>183</xmax>
-			<ymax>1269</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Kellogg's corn flakes 25g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>233</xmin>
-			<ymin>644</ymin>
-			<xmax>483</xmax>
-			<ymax>1054</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Koko_krunch_box_25g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>65</xmin>
-			<ymin>484</ymin>
-			<xmax>249</xmax>
-			<ymax>750</ymax>
-		</bndbox>
-	</object>
 </annotation>

@@ -1,1 +1,14 @@
-<annotation><filename>224.jpg</filename><path>/home/palm/PycharmProjects/seven/data1/1/224.jpg</path><size><width>1080</width><height>1920</height></size><object><name>Break SUPA 30g</name><bndbox><xmin>291</xmin><ymin>1434</ymin><xmax>817</xmax><ymax>1900</ymax></bndbox></object><object><name>Mentos fruit 37g</name><bndbox><xmin>46</xmin><ymin>1207</ymin><xmax>302</xmax><ymax>1625</ymax></bndbox></object><object><name>Jolly bear 25g</name><bndbox><xmin>481</xmin><ymin>867</ymin><xmax>1043</xmax><ymax>1431</ymax></bndbox></object><object><name>Take-it Black</name><bndbox><xmin>179</xmin><ymin>948</ymin><xmax>479</xmax><ymax>1402</ymax></bndbox></object><object><name>Milo choco bar 15g</name><bndbox><xmin>124</xmin><ymin>296</ymin><xmax>320</xmax><ymax>739</ymax></bndbox></object></annotation>
+<annotation>
+	<folder>1</folder>
+	<filename>224.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1/224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

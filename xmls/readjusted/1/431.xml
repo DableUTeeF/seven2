@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>431.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\431.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/431.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<name>Nescafe espresso roast can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>41</xmin>
-			<ymin>726</ymin>
-			<xmax>276</xmax>
-			<ymax>1145</ymax>
+			<xmin>36</xmin>
+			<ymin>739</ymin>
+			<xmax>246</xmax>
+			<ymax>1169</ymax>
 		</bndbox>
 	</object>
 </annotation>

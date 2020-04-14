@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>580.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\580.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/580.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,14 +29,14 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>219</xmin>
-			<ymin>502</ymin>
-			<xmax>778</xmax>
-			<ymax>1455</ymax>
+			<xmin>161</xmin>
+			<ymin>512</ymin>
+			<xmax>720</xmax>
+			<ymax>1465</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>7 select mineral 350ml</name>
+		<name>7 select cooly fresh 350ml</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

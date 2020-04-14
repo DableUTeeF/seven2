@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>215.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\215.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/215.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -62,13 +62,13 @@
 	<object>
 		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5</xmin>
-			<ymin>677</ymin>
-			<xmax>257</xmax>
-			<ymax>1297</ymax>
+			<xmin>1</xmin>
+			<ymin>681</ymin>
+			<xmax>252</xmax>
+			<ymax>1255</ymax>
 		</bndbox>
 	</object>
 	<object>

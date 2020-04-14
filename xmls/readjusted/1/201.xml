@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>201.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\201.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/201.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>7 select cooly fresh 350ml</name>
+		<name>Milo serials box 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>285</xmin>
-			<ymin>218</ymin>
-			<xmax>473</xmax>
-			<ymax>576</ymax>
+			<xmin>216</xmin>
+			<ymin>208</ymin>
+			<xmax>519</xmax>
+			<ymax>605</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -90,9 +90,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>150</ymin>
-			<xmax>161</xmax>
-			<ymax>524</ymax>
+			<ymin>146</ymin>
+			<xmax>218</xmax>
+			<ymax>549</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>164.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\164.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/164.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -48,15 +48,15 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Moccona Trio Gold 100g</name>
+		<name>Khao shong 3 in 1 super rich 100g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>565</xmin>
-			<ymin>602</ymin>
+			<ymin>692</ymin>
 			<xmax>1080</xmax>
-			<ymax>1575</ymax>
+			<ymax>1665</ymax>
 		</bndbox>
 	</object>
 </annotation>

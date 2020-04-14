@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>401.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\401.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/401.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Birdy 3 in 1 robusta 62g</name>
+		<name>Birdy robusta can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>66</xmin>
-			<ymin>862</ymin>
-			<xmax>331</xmax>
-			<ymax>1323</ymax>
+			<xmin>82</xmin>
+			<ymin>876</ymin>
+			<xmax>347</xmax>
+			<ymax>1337</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<name>Nescafe espresso roast can 180ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>374</xmin>
-			<ymin>1040</ymin>
-			<xmax>920</xmax>
-			<ymax>1591</ymax>
+			<xmin>370</xmin>
+			<ymin>1058</ymin>
+			<xmax>916</xmax>
+			<ymax>1609</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>244.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\244.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/244.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,64 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Nescafe espresso roast can 180ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>215</xmin>
-			<ymin>752</ymin>
-			<xmax>800</xmax>
-			<ymax>1078</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>C-vit lemon 140 ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>239</xmin>
-			<ymin>1200</ymin>
-			<xmax>762</xmax>
-			<ymax>1559</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Oreo original 29.4g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>787</xmin>
-			<ymin>686</ymin>
-			<xmax>1041</xmax>
-			<ymax>1576</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Sponser original 250ml</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>179</xmin>
-			<ymin>1648</ymin>
-			<xmax>847</xmax>
-			<ymax>1920</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Lay_ori_27g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1043</ymin>
-			<xmax>290</xmax>
-			<ymax>1335</ymax>
-		</bndbox>
-	</object>
 </annotation>

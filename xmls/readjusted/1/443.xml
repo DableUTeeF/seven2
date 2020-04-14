@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>443.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\443.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/443.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -50,13 +50,13 @@
 	<object>
 		<name>United Almond 19g</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>388</xmin>
-			<ymin>1223</ymin>
-			<xmax>987</xmax>
-			<ymax>1920</ymax>
+			<xmin>406</xmin>
+			<ymin>1253</ymin>
+			<xmax>922</xmax>
+			<ymax>1895</ymax>
 		</bndbox>
 	</object>
 </annotation>

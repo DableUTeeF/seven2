@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>300.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\300.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/300.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,52 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Birdy 3 in 1 robusta 62g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>568</ymin>
-			<xmax>368</xmax>
-			<ymax>1045</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Moccona Trio rich and smooth 90g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>325</xmin>
-			<ymin>292</ymin>
-			<xmax>895</xmax>
-			<ymax>802</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Khao shong 3 in 1 super rich 100g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>307</xmin>
-			<ymin>788</ymin>
-			<xmax>837</xmax>
-			<ymax>1321</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Milo choco bar 15g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>200</xmin>
-			<ymin>1057</ymin>
-			<xmax>512</xmax>
-			<ymax>1429</ymax>
-		</bndbox>
-	</object>
 </annotation>

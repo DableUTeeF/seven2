@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>624.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\624.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/624.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Lypon-F 150ml</name>
+		<name>Morr Milk Flavored Milk Tablet 15g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

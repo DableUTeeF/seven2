@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>292.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\292.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/292.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>356</xmin>
-			<ymin>672</ymin>
-			<xmax>1039</xmax>
-			<ymax>1242</ymax>
+			<xmin>352</xmin>
+			<ymin>700</ymin>
+			<xmax>1035</xmax>
+			<ymax>1270</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>365</xmin>
-			<ymin>1230</ymin>
-			<xmax>962</xmax>
-			<ymax>1855</ymax>
+			<xmin>361</xmin>
+			<ymin>1232</ymin>
+			<xmax>958</xmax>
+			<ymax>1857</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>Moccona Trio Espresso 90g</name>
+		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>400</xmin>
+			<xmin>354</xmin>
 			<ymin>61</ymin>
 			<xmax>1060</xmax>
-			<ymax>651</ymax>
+			<ymax>709</ymax>
 		</bndbox>
 	</object>
 </annotation>

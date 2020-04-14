@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>307.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\307.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/307.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -48,7 +48,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Fun-o power 50g</name>
+		<name>Birdy 3 in 1 robusta 62g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

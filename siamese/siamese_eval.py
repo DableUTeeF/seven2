@@ -21,7 +21,7 @@ import tensorflow as tf
 import keras
 from evaluate_util import evaluate, all_annotation_from_instance
 import pickle as pk
-
+import time
 gpu_options = tf.GPUOptions(allow_growth=True)
 sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 keras.backend.set_session(sess)
@@ -66,16 +66,19 @@ if __name__ == '__main__':
     names_to_labels = {}
     for x in open('/home/palm/PycharmProjects/seven2/anns/classes.csv').read().split('\n')[:-1]:
         names_to_labels[x.split(',')[0]] = int(x.split(',')[1])
-    query_path = '/home/palm/PycharmProjects/seven/images/cropped6/train'
+    query_path = '/home/palm/PycharmProjects/seven/images/cropped7/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
     all_detections = []
     all_annotations = []
+    known_classes = os.listdir(query_path)
 
     for instance in valid_ints:
         all_annotation = all_annotation_from_instance(instance, names_to_labels)
 
         image = read_image_bgr(instance["filename"])
+
+        t = time.time()
 
         # copy to draw ong
         draw = image.copy()
@@ -110,12 +113,13 @@ if __name__ == '__main__':
                         y = LSHash.euclidean_dist(target_features.cpu().numpy()[0], query_features.cpu().numpy()[0])
                         if y < minimum[0]:
                             minimum = (y, query_folder)
-            if minimum[0] < 1:
+            if minimum[0] < 1 and minimum[1] in names_to_labels:
                 label = names_to_labels[minimum[1]]
                 all_detection[label].append([*b, score])
         # all_detection = np.array(all_detection, dtype='uint16')
         all_detections.append(all_detection)
         all_annotations.append(all_annotation)
+        print(time.time() - t)
 
     pk.dump([all_detections, all_annotations], open('siamese_cache.pk', 'wb'))
     average_precisions, total_instances = evaluate(all_detections, all_annotations, len(names_to_labels))

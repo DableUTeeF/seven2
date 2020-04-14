@@ -1,8 +1,9 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 from retinanet.utils.image import read_image_bgr, preprocess_image, resize_image
 from retinanet.utils.colors import label_color
 from retinanet import models
 import cv2
-import os
 import numpy as np
 import time
 from boxutils import add_bbox
@@ -43,7 +44,7 @@ if __name__ == '__main__':
                 break
 
             b = box.astype(int)
-            draw = add_bbox(draw, b, label, labels_to_names, score)
+            # draw = add_bbox(draw, b, label, labels_to_names, score)
 
-        os.makedirs(dst, exist_ok=True)
-        cv2.imwrite(os.path.join(dst, image_name), draw)
+        # os.makedirs(dst, exist_ok=True)
+        # cv2.imwrite(os.path.join(dst, image_name), draw)

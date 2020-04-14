@@ -12,6 +12,8 @@ if __name__ == '__main__':
     open('anns/val_ann.csv', 'w')
     open('anns/classes.csv', 'w')
     classes = []
+    trainset = []
+    testset = []
     with open('anns/annotation.csv', 'w') as wr:
         for set_name in [0, 1, 2, 3]:
             folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
@@ -47,10 +49,12 @@ if __name__ == '__main__':
                                 classes.append(cls)
                             ln = f'{impath},{xmin},{ymin},{xmax},{ymax},{cls}'
                             if val:
+                                testset.append(impath)
                                 with open('anns/val_ann.csv', 'a') as vwr:
                                     vwr.write(ln)
                                     vwr.write('\n')
                             else:
+                                trainset.append(impath)
                                 wr.write(ln)
                                 wr.write('\n')
                     elif 'name' in elem.tag:
@@ -92,9 +96,13 @@ if __name__ == '__main__':
                         classes.append(cls)
                     ln = f'{impath},{xmin},{ymin},{xmax},{ymax},{cls}'
                     if val:
+                        testset.append(impath)
                         with open('anns/val_ann.csv', 'a') as vwr:
                             vwr.write(ln)
                             vwr.write('\n')
                     else:
+                        trainset.append(impath)
                         wr.write(ln)
                         wr.write('\n')
+    print(len(set(trainset)))
+    print(len(set(testset)))

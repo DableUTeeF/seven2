@@ -14,12 +14,7 @@ if __name__ == "__main__" and __package__ is None:
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 from .preprocessing.csv_generator import CSVGenerator
 from .utils.eval import evaluate
-import keras
-from retinanet import losses
 from retinanet import models
-from retinanet.models.retinanet import retinanet_bbox
-from retinanet.utils.config import parse_anchor_parameters
-from retinanet.utils.model import freeze as freeze_model
 
 
 def create_generator(annotations, classes, image_min_side, image_max_side):

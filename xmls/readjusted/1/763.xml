@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>763.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\763.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/763.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -57,6 +57,18 @@
 			<ymin>17</ymin>
 			<xmax>969</xmax>
 			<ymax>587</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Haribo goldbear</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1005</ymin>
+			<xmax>274</xmax>
+			<ymax>1372</ymax>
 		</bndbox>
 	</object>
 </annotation>

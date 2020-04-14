@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>733.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\733.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/733.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>156</xmin>
-			<ymin>524</ymin>
-			<xmax>456</xmax>
-			<ymax>725</ymax>
+			<xmin>162</xmin>
+			<ymin>540</ymin>
+			<xmax>442</xmax>
+			<ymax>729</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -30,21 +30,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>534</ymin>
-			<xmax>156</xmax>
-			<ymax>871</ymax>
+			<ymin>568</ymin>
+			<xmax>132</xmax>
+			<ymax>863</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>Strepsil Cool (6 tablets)</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>671</xmin>
-			<ymin>331</ymin>
-			<xmax>1076</xmax>
-			<ymax>1096</ymax>
+			<xmin>642</xmin>
+			<ymin>385</ymin>
+			<xmax>1080</xmax>
+			<ymax>1048</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>181</xmin>
-			<ymin>917</ymin>
-			<xmax>532</xmax>
-			<ymax>1457</ymax>
+			<xmin>161</xmin>
+			<ymin>943</ymin>
+			<xmax>528</xmax>
+			<ymax>1445</ymax>
 		</bndbox>
 	</object>
 </annotation>

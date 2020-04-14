@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>184.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\184.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/184.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -26,13 +26,13 @@
 	<object>
 		<name>Pocky macha 45g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>163</xmin>
-			<ymin>1402</ymin>
-			<xmax>771</xmax>
-			<ymax>1919</ymax>
+			<xmin>176</xmin>
+			<ymin>1417</ymin>
+			<xmax>788</xmax>
+			<ymax>1920</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>219</xmin>
-			<ymin>490</ymin>
-			<xmax>679</xmax>
-			<ymax>914</ymax>
+			<xmin>199</xmin>
+			<ymin>495</ymin>
+			<xmax>674</xmax>
+			<ymax>954</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -55,8 +55,8 @@
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>824</ymin>
-			<xmax>161</xmax>
-			<ymax>1376</ymax>
+			<xmax>216</xmax>
+			<ymax>1415</ymax>
 		</bndbox>
 	</object>
 </annotation>

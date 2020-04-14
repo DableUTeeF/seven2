@@ -20,7 +20,7 @@ from keras.models import load_model
 
 if __name__ == '__main__':
 
-    config_path = 'yolo/algeaconfig.json'
+    config_path = './sevenconfig.json'
 
     with open(config_path) as config_buffer:
         config = json.loads(config_buffer.read())
@@ -31,15 +31,15 @@ if __name__ == '__main__':
     )
 
     infer_model = yolo3(
-            fe='effnetb5',
+            fe='effnetb3',
             output_type='dw',
             nb_class=2
     )
 
-    infer_model.load_weights('/home/root1/PycharmProjects/algea/snapshots/B0DW_algea_2/19_11.1455_9.0425.h5',
+    # infer_model.load_weights('/home/root1/PycharmProjects/algea/snapshots/B0DW_algea_2/19_11.1455_9.0425.h5',
                              # by_name=True,
                              # skip_mismatch=True,
-                             )
+                             # )
 
     path = "/media/palm/data/coco/images/val2017"
     pad = 1
@@ -108,10 +108,10 @@ if __name__ == '__main__':
         # infer_model.predict(image)
         # labels = ['badhelmet', 'badshoes', 'goodhelmet', 'goodshoes', 'person']
         # # draw bounding boxes on the image using labels
-        image = draw_boxesv3(image[0], boxes, labels, 0.75)
-        im = Image.fromarray(image.astype('uint8'))
-        b, g, r = im.split()
-        im = Image.merge("RGB", (r, g, b))
+        # image = draw_boxesv3(image[0], boxes, labels, 0.75)
+        # im = Image.fromarray(image.astype('uint8'))
+        # b, g, r = im.split()
+        # im = Image.merge("RGB", (r, g, b))
         print(time.time() - x)
-        im.save('/home/palm/PycharmProjects/algea/dataset/yolo_testset/' + os.path.split(filename)[1])
+        # im.save('/home/palm/PycharmProjects/algea/dataset/yolo_testset/' + os.path.split(filename)[1])
     print('total time:', time.time() - t)

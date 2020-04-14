@@ -10,12 +10,12 @@ import cv2
 import os
 
 if __name__ == '__main__':
-    train_ints, valid_ints, labels, max_box_per_image = create_csv_training_instances('/home/palm/PycharmProjects/seven2/anns/ann.csv',
+    train_ints, valid_ints, labels, max_box_per_image = create_csv_training_instances('/home/palm/PycharmProjects/seven2/anns/annotation.csv',
                                                                                       '/home/palm/PycharmProjects/seven2/anns/val_ann.csv',
-                                                                                      '/home/palm/PycharmProjects/seven2/anns/c.csv',
+                                                                                      '/home/palm/PycharmProjects/seven2/anns/classes.csv',
                                                                                       )
-    save_path = '/home/palm/PycharmProjects/seven/images/cropped6'
-    for instance in train_ints:
+    save_path = '/home/palm/PycharmProjects/seven/images/test6'
+    for instance in valid_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):
             x1 = max(0, obj['xmin'])

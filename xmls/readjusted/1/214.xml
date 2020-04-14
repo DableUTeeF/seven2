@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>214.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\214.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/214.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,88 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Abacus yellow 30g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>4</xmin>
-			<ymin>945</ymin>
-			<xmax>190</xmax>
-			<ymax>1255</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Jolly cola 25g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>1409</ymin>
-			<xmax>217</xmax>
-			<ymax>1839</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Break SUPA 30g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>225</xmin>
-			<ymin>1445</ymin>
-			<xmax>504</xmax>
-			<ymax>1911</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Abacus pink 30g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>126</xmin>
-			<ymin>1150</ymin>
-			<xmax>397</xmax>
-			<ymax>1455</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Lay_ori_27g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>24</xmin>
-			<ymin>366</ymin>
-			<xmax>477</xmax>
-			<ymax>961</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Jolly bear 25g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>507</xmin>
-			<ymin>1603</ymin>
-			<xmax>943</xmax>
-			<ymax>1880</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Lays BBQ 27g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>643</xmin>
-			<ymin>544</ymin>
-			<xmax>905</xmax>
-			<ymax>1342</ymax>
-		</bndbox>
-	</object>
 </annotation>

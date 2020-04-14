@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>540.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\540.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/540.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>190</xmin>
-			<ymin>974</ymin>
-			<xmax>815</xmax>
-			<ymax>1295</ymax>
+			<xmin>212</xmin>
+			<ymin>944</ymin>
+			<xmax>828</xmax>
+			<ymax>1313</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>Uhu glues 8.2g</name>
+		<name>C-vit lemon 140 ml</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

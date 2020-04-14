@@ -51,15 +51,15 @@ if __name__ == '__main__':
                                     transforms.ToTensor(),
                                     normalize])
 
-    labels_to_names = [x.split(',')[0] for x in open('/home/palm/PycharmProjects/seven2/anns/c.csv').read().split('\n')[:-1]]
+    labels_to_names = [x.split(',')[0] for x in open('/home/palm/PycharmProjects/seven2/anns/classes.csv').read().split('\n')[:-1]]
     prediction_model = models.load_model('/home/palm/PycharmProjects/seven2/snapshots/infer_model_temp.h5')
     names_to_labels = {}
-    for x in open('/home/palm/PycharmProjects/seven2/anns/c.csv').read().split('\n')[:-1]:
+    for x in open('/home/palm/PycharmProjects/seven2/anns/classes.csv').read().split('\n')[:-1]:
         names_to_labels[x.split(',')[0]] = int(x.split(',')[1])
-    query_path = '/home/palm/PycharmProjects/seven/images/cropped6/train'
+    query_path = '/home/palm/PycharmProjects/seven/images/cropped7/train'
     cache_path = '/home/palm/PycharmProjects/seven/caches'
     cache_dict = {}
-    dst = f'/home/palm/PycharmProjects/seven/predict/3'
+    dst = f'/home/palm/PycharmProjects/seven/predict/4'
     for set_name in [1]:
         folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
         for i in os.listdir(folder):
@@ -100,8 +100,12 @@ if __name__ == '__main__':
                                 minimum = (y, query_folder)
                 if minimum[0] > 1:
                     minimum = (minimum[0], 'obj')
-                label = names_to_labels[minimum[1]]
-                draw = add_bbox(draw, b, label, labels_to_names, score)
+                else:
+                    if minimum[1] in names_to_labels:
+                        label = names_to_labels[minimum[1]]
+                        draw = add_bbox(draw, b, label, labels_to_names, score)
+                    else:
+                        draw = add_bbox(draw, b, 0, [minimum[1]], score)
 
             os.makedirs(dst, exist_ok=True)
             cv2.imwrite(os.path.join(dst, i), draw)

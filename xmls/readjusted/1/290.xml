@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>290.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\290.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/290.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,40 +11,4 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>Nescafe espresso roast can 180ml</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>332</xmin>
-			<ymin>453</ymin>
-			<xmax>654</xmax>
-			<ymax>1104</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Moccona Trio rich and smooth 90g</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>671</xmin>
-			<ymin>940</ymin>
-			<xmax>1080</xmax>
-			<ymax>1902</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>Khao shong 3 in 1 super rich 100g</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>541</xmin>
-			<ymin>707</ymin>
-			<xmax>853</xmax>
-			<ymax>1319</ymax>
-		</bndbox>
-	</object>
 </annotation>

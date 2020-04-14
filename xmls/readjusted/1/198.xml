@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>198.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\198.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/198.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -38,17 +38,17 @@
 	<object>
 		<name>Pocky cookie and cream 45g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>12</xmin>
+			<xmin>1</xmin>
 			<ymin>1054</ymin>
-			<xmax>275</xmax>
+			<xmax>263</xmax>
 			<ymax>1274</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>Cosmetics</name>
+		<name>Pocky strawberry 45g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -86,13 +86,13 @@
 	<object>
 		<name>Milo serials box 25g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>17</xmin>
-			<ymin>672</ymin>
-			<xmax>201</xmax>
-			<ymax>826</ymax>
+			<xmin>1</xmin>
+			<ymin>648</ymin>
+			<xmax>198</xmax>
+			<ymax>831</ymax>
 		</bndbox>
 	</object>
 </annotation>

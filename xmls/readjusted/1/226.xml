@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>226.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\226.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/226.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,19 +12,19 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Soffel fresh 80ml</name>
+		<name>Mirinda orange 440ml</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>832</ymin>
-			<xmax>733</xmax>
-			<ymax>1233</ymax>
+			<ymin>806</ymin>
+			<xmax>734</xmax>
+			<ymax>1269</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>Halls mentho-lyptus 22.4g</name>
+		<name>Oreo original 29.4g</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>

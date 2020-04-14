@@ -32,7 +32,7 @@ def add_bbox(img, bbox, cat, labels, conf=1, show_txt=True, color=None):
     # bbox = np.array(bbox, dtype=np.int32)
     # cat = (int(cat) + 1) % 80
     cat = int(cat)
-    c = colors[cat][0][0].tolist() if color is None else color
+    c = colors[cat % 158][0][0].tolist() if color is None else color
     txt = '{} - {:.1f}'.format(labels[cat], conf)
     font = cv2.FONT_HERSHEY_SIMPLEX
     cat_size = cv2.getTextSize(txt, font, 0.5, 2)[0]

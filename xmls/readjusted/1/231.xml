@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>231.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\231.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/231.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,21 +18,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>1</xmin>
-			<ymin>628</ymin>
-			<xmax>337</xmax>
-			<ymax>839</ymax>
+			<ymin>626</ymin>
+			<xmax>336</xmax>
+			<ymax>837</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>Lay_ori_27g</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>3</xmin>
-			<ymin>842</ymin>
-			<xmax>370</xmax>
-			<ymax>1331</ymax>
+			<xmin>1</xmin>
+			<ymin>874</ymin>
+			<xmax>367</xmax>
+			<ymax>1363</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>312</xmin>
-			<ymin>543</ymin>
-			<xmax>624</xmax>
-			<ymax>961</ymax>
+			<xmin>320</xmin>
+			<ymin>607</ymin>
+			<xmax>598</xmax>
+			<ymax>953</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>469</xmin>
-			<ymin>261</ymin>
-			<xmax>980</xmax>
-			<ymax>900</ymax>
+			<xmin>525</xmin>
+			<ymin>257</ymin>
+			<xmax>1036</xmax>
+			<ymax>896</ymax>
 		</bndbox>
 	</object>
 </annotation>

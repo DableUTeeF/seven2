@@ -1,7 +1,7 @@
 <annotation>
 	<folder>1</folder>
 	<filename>261.jpg</filename>
-	<path>E:\Work\PIM\DeepLearning\data1\1\261.jpg</path>
+	<path>/home/palm/PycharmProjects/seven/data1/1/261.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>7 select cooly fresh 350ml</name>
+		<name>Milo serials box 25g</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
