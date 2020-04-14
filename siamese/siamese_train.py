@@ -27,7 +27,7 @@ class ThresholdAcc:
 
 if __name__ == '__main__':
     save_no = len(os.listdir('./snapshots/pairs'))
-    impath = '/home/palm/PycharmProjects/seven/images/cropped3/train'
+    impath = './images/cropped/train'
     model = Model(ResNet(zero_init_residual=False))
     model.compile(torch.optim.SGD(model.model.parameters(),
                                   lr=0.001,
@@ -49,13 +49,9 @@ if __name__ == '__main__':
                                                                transforms.ToTensor(),
                                                                normalize]))
     train_generator = train_datagen.get_dset(8, 1)
-    os.makedirs(f'./snapshots/pairs/{save_no}', exist_ok=True)
-    try:
-        h = model.fit_generator(train_generator, 20,
-                                schedule=[10, 15],
-                                tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
-                                epoch_end=model.checkpoint(f'./snapshots/pairs/{save_no}', 'ContrastiveLoss'), step=200)
-        with open('siamese.json', 'w') as wr:
-            json.dump(h, wr)
-    finally:
-        model.save_weights('./snapshots/pairs_temp.pth')
+    os.makedirs(f'./snapshots/pairs/', exist_ok=True)
+    h = model.fit_generator(train_generator, 20,
+                            schedule=[10, 15],
+                            tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
+                            epoch_end=model.checkpoint(f'./snapshots/pairs', 'ContrastiveLoss'), step=1000000)
+    model.save_weights('./snapshots/recognizer.pth')
