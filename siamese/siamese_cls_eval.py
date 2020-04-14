@@ -123,12 +123,13 @@ if __name__ == '__main__':
                 correct += 1
                 class_correct[folder][0] += 1
     f = confusion_matrix(y_true, y_pred)
+    pk.dump([y_true, y_pred, labels_to_names], open('ys.pk', 'wb'))
     w = np.argwhere(f > 20)
     sorted_cc = {}
     for folder in class_correct:
         print(folder, class_correct[folder][0]/class_correct[folder][1], class_correct[folder][1])
     print(correct / count)
-    ticks = np.linspace(0, 173, num=174)
+    ticks = np.linspace(0, 153, num=154)
     plt.imshow(f, interpolation='none')
     plt.colorbar()
     plt.xticks(ticks, fontsize=6)
