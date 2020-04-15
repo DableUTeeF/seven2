@@ -50,7 +50,7 @@ class DirectorySiameseLoader:
 
 
 if __name__ == '__main__':
-    train_datagen = DirectorySiameseLoader('/media/palm/data/MicroAlgae/16_8_62/cropped/train',
+    train_datagen = DirectorySiameseLoader('cropped/train',
                                            None)
     train_generator = train_datagen.get_dset(16, 1)
     s = train_datagen.dset

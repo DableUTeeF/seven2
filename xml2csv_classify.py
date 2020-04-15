@@ -14,9 +14,10 @@ if __name__ == '__main__':
     classes = []
     trainset = []
     testset = []
+    images_base_path = '/home/palm/PycharmProjects/seven/data1'
     with open('anns/annotation.csv', 'w') as wr:
         for set_name in [0, 1, 2, 3]:
-            folder = f'/home/palm/PycharmProjects/seven/data1/{set_name}'
+            folder = f'images/{set_name}'
             path = f'./xmls/readjusted/{set_name}'
             for file in os.listdir(path):
                 val = False
@@ -40,7 +41,7 @@ if __name__ == '__main__':
                                 basename = impath.split('\\')[-1]
                             else:
                                 basename = os.path.basename(impath)
-                            impath = os.path.join('/home/palm/PycharmProjects/seven/data1', str(set_name), basename)
+                            impath = os.path.join(images_base_path, str(set_name), basename)
                     if 'object' in elem.tag:
                         if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                             if cls not in classes:
