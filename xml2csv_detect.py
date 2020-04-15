@@ -20,14 +20,8 @@ if __name__ == '__main__':
             ymax = 0
             impath = ''
             for elem in tree.iter():
-                if 'path' in elem.tag:
-                    impath = elem.text
-                    if 'palm' not in impath:
-                        if '\\' in impath:
-                            basename = impath.split('\\')[-1]
-                        else:
-                            basename = os.path.basename(impath)
-                        impath = os.path.join(images_base_path, basename)
+                if 'filename' in elem.tag:
+                    impath = os.path.join(images_base_path, elem.text)
                 if 'object' in elem.tag:
                     if cls != '' and (xmax+xmin+ymax+ymax) != 0 and impath != 0:
                         if cls not in classes:
