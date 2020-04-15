@@ -1,0 +1,62 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1817.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\Work\PIM\DeepLearning\data1\0\1817.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lactacyd natural care 60ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>333</xmin>
+			<ymin>1134</ymin>
+			<xmax>633</xmax>
+			<ymax>1298</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Rosdee pork 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>661</xmin>
+			<ymin>1119</ymin>
+			<xmax>1070</xmax>
+			<ymax>1472</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dentiste plus white 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>887</ymin>
+			<xmax>250</xmax>
+			<ymax>1274</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Quantum gelo plus 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>295</xmin>
+			<ymin>623</ymin>
+			<xmax>791</xmax>
+			<ymax>1096</ymax>
+		</bndbox>
+	</object>
+</annotation>

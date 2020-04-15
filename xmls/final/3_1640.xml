@@ -1,0 +1,62 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1640.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\Work\PIM\DeepLearning\data1\0\1640.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Break 23.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>576</xmin>
+			<ymin>887</ymin>
+			<xmax>944</xmax>
+			<ymax>1113</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Break SUPA 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>866</ymin>
+			<xmax>557</xmax>
+			<ymax>1121</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Take-it Red</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>359</xmin>
+			<ymin>1100</ymin>
+			<xmax>629</xmax>
+			<ymax>1451</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>742</xmin>
+			<ymin>1187</ymin>
+			<xmax>974</xmax>
+			<ymax>1540</ymax>
+		</bndbox>
+	</object>
+</annotation>

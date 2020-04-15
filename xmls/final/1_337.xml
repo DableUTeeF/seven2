@@ -1,0 +1,62 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_337.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_337.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mentos fruit 37g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>1262</ymin>
+			<xmax>1080</xmax>
+			<ymax>1463</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dentyne splash straw 15.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>614</ymin>
+			<xmax>444</xmax>
+			<ymax>992</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lotte xylitol fresh mint 11.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>474</xmin>
+			<ymin>905</ymin>
+			<xmax>885</xmax>
+			<ymax>1329</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Flora 80ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>461</xmin>
+			<ymin>311</ymin>
+			<xmax>703</xmax>
+			<ymax>888</ymax>
+		</bndbox>
+	</object>
+</annotation>

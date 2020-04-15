@@ -1,0 +1,50 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>3_2532.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\Chief Engineer\Desktop\New folder\2532.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Brasso 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>1258</ymin>
+			<xmax>502</xmax>
+			<ymax>1783</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Latex glue 3.5oz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>843</xmin>
+			<ymin>1032</ymin>
+			<xmax>1078</xmax>
+			<ymax>1471</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffell natural spray 30ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>676</xmin>
+			<ymin>1315</ymin>
+			<xmax>861</xmax>
+			<ymax>1739</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1619.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1619.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sponser original 250ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1523</ymin>
+			<xmax>594</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bissin 36g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>167</xmin>
+			<ymin>864</ymin>
+			<xmax>451</xmax>
+			<ymax>1487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fun-o custard 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>355</xmin>
+			<ymin>531</ymin>
+			<xmax>823</xmax>
+			<ymax>1125</ymax>
+		</bndbox>
+	</object>
+</annotation>

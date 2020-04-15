@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2184.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\TON\Desktop\3\2184.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>G-soft blue pen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1090</ymin>
+			<xmax>557</xmax>
+			<ymax>1572</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pentel soft erasor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>601</xmin>
+			<ymin>963</ymin>
+			<xmax>815</xmax>
+			<ymax>1396</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sharpie permanent marker 2CT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>871</xmin>
+			<ymin>946</ymin>
+			<xmax>1078</xmax>
+			<ymax>1460</ymax>
+		</bndbox>
+	</object>
+</annotation>

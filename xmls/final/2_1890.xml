@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1890.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1890.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Baby mild ultra mild 125ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>892</ymin>
+			<xmax>384</xmax>
+			<ymax>1264</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Protex propolis 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>724</ymin>
+			<xmax>648</xmax>
+			<ymax>930</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Me-O Tuna in jelly can 80g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>667</xmin>
+			<ymin>907</ymin>
+			<xmax>968</xmax>
+			<ymax>1211</ymax>
+		</bndbox>
+	</object>
+</annotation>

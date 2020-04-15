@@ -1,0 +1,62 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1631.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\Work\PIM\DeepLearning\data1\0\1631.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Break 23.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>772</ymin>
+			<xmax>799</xmax>
+			<ymax>1126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>642</xmin>
+			<ymin>1140</ymin>
+			<xmax>995</xmax>
+			<ymax>1489</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Take-it Black</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>274</xmin>
+			<ymin>1228</ymin>
+			<xmax>595</xmax>
+			<ymax>1468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ferrero 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>193</xmin>
+			<ymin>892</ymin>
+			<xmax>491</xmax>
+			<ymax>1123</ymax>
+		</bndbox>
+	</object>
+</annotation>

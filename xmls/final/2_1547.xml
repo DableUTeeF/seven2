@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1547.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1547.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Take-it Black</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>217</xmin>
+			<ymin>731</ymin>
+			<xmax>445</xmax>
+			<ymax>1207</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ferrero 62.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>1562</ymin>
+			<xmax>638</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>562</xmin>
+			<ymin>747</ymin>
+			<xmax>996</xmax>
+			<ymax>1355</ymax>
+		</bndbox>
+	</object>
+</annotation>

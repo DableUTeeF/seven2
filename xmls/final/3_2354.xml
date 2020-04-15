@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2354.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_2354.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Uhu glues 8.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>601</xmin>
+			<ymin>924</ymin>
+			<xmax>852</xmax>
+			<ymax>1416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Lotion flora 8ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>375</xmin>
+			<ymin>505</ymin>
+			<xmax>587</xmax>
+			<ymax>782</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Staedtler eraser 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>1074</ymin>
+			<xmax>487</xmax>
+			<ymax>1294</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,62 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1948.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1948.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Amira plum 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>1109</ymin>
+			<xmax>465</xmax>
+			<ymax>1483</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Me-O Tuna in jelly 80g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>510</xmin>
+			<ymin>1040</ymin>
+			<xmax>782</xmax>
+			<ymax>1406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Shokubutsu ginkgo 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>235</xmin>
+			<ymin>803</ymin>
+			<xmax>438</xmax>
+			<ymax>1063</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel lotion fresh 60ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>468</xmin>
+			<ymin>771</ymin>
+			<xmax>638</xmax>
+			<ymax>1034</ymax>
+		</bndbox>
+	</object>
+</annotation>

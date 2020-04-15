@@ -1,0 +1,62 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2392.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_2392.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Darlie green</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>95</xmin>
+			<ymin>881</ymin>
+			<xmax>616</xmax>
+			<ymax>1104</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Latex glue 3.5oz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>315</xmin>
+			<ymin>432</ymin>
+			<xmax>640</xmax>
+			<ymax>675</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Lotion flora 8ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>860</xmin>
+			<ymin>258</ymin>
+			<xmax>1077</xmax>
+			<ymax>665</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffell natural spray 30ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>896</xmin>
+			<ymin>972</ymin>
+			<xmax>1080</xmax>
+			<ymax>1488</ymax>
+		</bndbox>
+	</object>
+</annotation>

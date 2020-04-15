@@ -1,0 +1,38 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2266.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_D:\Users\Administrator\Desktop\golf_13-03\3\2266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Daiwa dishwashing liquid lemon 160ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>216</xmin>
+			<ymin>955</ymin>
+			<xmax>973</xmax>
+			<ymax>1334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Latex glue 3.5oz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>1309</ymin>
+			<xmax>673</xmax>
+			<ymax>1543</ymax>
+		</bndbox>
+	</object>
+</annotation>

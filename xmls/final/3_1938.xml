@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_1938.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_1938.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Carnation 388g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>576</ymin>
+			<xmax>297</xmax>
+			<ymax>1169</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Chaokoh coconut milk 250ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>848</xmin>
+			<ymin>1053</ymin>
+			<xmax>1080</xmax>
+			<ymax>1381</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Quantum gelo plus 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>1118</ymin>
+			<xmax>825</xmax>
+			<ymax>1322</ymax>
+		</bndbox>
+	</object>
+</annotation>

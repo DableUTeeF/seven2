@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2214.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_D:\Users\Administrator\Desktop\golf_13-03\3\2214.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Uhu glues 8.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>1044</ymin>
+			<xmax>445</xmax>
+			<ymax>1513</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pentel soft erasor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>574</xmin>
+			<ymin>1149</ymin>
+			<xmax>924</xmax>
+			<ymax>1470</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Staedtler eraser 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>905</xmin>
+			<ymin>1169</ymin>
+			<xmax>1080</xmax>
+			<ymax>1455</ymax>
+		</bndbox>
+	</object>
+</annotation>

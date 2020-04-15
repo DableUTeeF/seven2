@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_1973.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_1973.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Darlie green</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>371</xmin>
+			<ymin>1292</ymin>
+			<xmax>741</xmax>
+			<ymax>1497</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lancer wave 0.5mm 2CT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>737</ymin>
+			<xmax>641</xmax>
+			<ymax>1046</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>TD protractor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>297</xmin>
+			<ymin>991</ymin>
+			<xmax>772</xmax>
+			<ymax>1273</ymax>
+		</bndbox>
+	</object>
+</annotation>

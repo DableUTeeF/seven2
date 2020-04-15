@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_10.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_10.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Hershey's Nugget Dark 28g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>662</xmin>
+			<ymin>938</ymin>
+			<xmax>815</xmax>
+			<ymax>1280</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Koko_krunch_box_25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>399</xmin>
+			<ymin>730</ymin>
+			<xmax>656</xmax>
+			<ymax>987</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Vanish Oxiaction 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>191</xmin>
+			<ymin>1020</ymin>
+			<xmax>434</xmax>
+			<ymax>1314</ymax>
+		</bndbox>
+	</object>
+</annotation>

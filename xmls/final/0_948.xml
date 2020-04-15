@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_948.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_948.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Vaseline healthy white 75g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>779</ymin>
+			<xmax>615</xmax>
+			<ymax>1170</ymax>
+		</bndbox>
+	</object>
+</annotation>

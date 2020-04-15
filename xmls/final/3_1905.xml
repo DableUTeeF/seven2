@@ -1,0 +1,86 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1905.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\PIM\DeepLearning\data1\0\1905.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Parrot herbel organic pink 70g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>955</xmin>
+			<ymin>848</ymin>
+			<xmax>1080</xmax>
+			<ymax>1060</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Baby mild sweety pink 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>682</xmin>
+			<ymin>1177</ymin>
+			<xmax>855</xmax>
+			<ymax>1601</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lactacyd natural care 60ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>429</xmin>
+			<ymin>874</ymin>
+			<xmax>797</xmax>
+			<ymax>1174</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Euro cake custard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>1007</ymin>
+			<xmax>423</xmax>
+			<ymax>1239</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mamipoko wipes Blue</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>1248</ymin>
+			<xmax>617</xmax>
+			<ymax>1451</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Bennett Orange soap (6 Pack)</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>876</xmin>
+			<ymin>1089</ymin>
+			<xmax>1080</xmax>
+			<ymax>1376</ymax>
+		</bndbox>
+	</object>
+</annotation>

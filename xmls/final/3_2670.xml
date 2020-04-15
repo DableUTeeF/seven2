@@ -1,0 +1,38 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2670.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\project711\golf_13-03\3\2670.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tong Garden Salted Almonds 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>475</xmin>
+			<ymin>920</ymin>
+			<xmax>1016</xmax>
+			<ymax>1424</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Koh-Kae Salted Peanuts 42g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>1581</ymin>
+			<xmax>586</xmax>
+			<ymax>1767</ymax>
+		</bndbox>
+	</object>
+</annotation>

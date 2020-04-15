@@ -1,0 +1,74 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1845.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\PIM\DeepLearning\data1\0\1845.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Quantum gelo plus 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>739</ymin>
+			<xmax>700</xmax>
+			<ymax>971</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Rosdee pork 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>867</xmin>
+			<ymin>595</ymin>
+			<xmax>1080</xmax>
+			<ymax>995</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dentiste plus white 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1165</ymin>
+			<xmax>473</xmax>
+			<ymax>1460</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Carnation 388g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>570</xmin>
+			<ymin>1310</ymin>
+			<xmax>838</xmax>
+			<ymax>1557</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Scotch packing tape 48mmx40m</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>479</xmin>
+			<ymin>986</ymin>
+			<xmax>838</xmax>
+			<ymax>1327</ymax>
+		</bndbox>
+	</object>
+</annotation>

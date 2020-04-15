@@ -1,0 +1,74 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_366.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_366.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Dentyne splash straw 15.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>859</ymin>
+			<xmax>339</xmax>
+			<ymax>1113</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lypon-F 150ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>356</xmin>
+			<ymin>398</ymin>
+			<xmax>880</xmax>
+			<ymax>689</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Milo nuggets 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>420</xmin>
+			<ymin>848</ymin>
+			<xmax>808</xmax>
+			<ymax>1226</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Flora 80ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>407</ymin>
+			<xmax>319</xmax>
+			<ymax>803</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kellogg's corn flakes 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>133</xmin>
+			<ymin>1165</ymin>
+			<xmax>514</xmax>
+			<ymax>1564</ymax>
+		</bndbox>
+	</object>
+</annotation>

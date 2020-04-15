@@ -1,0 +1,62 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2309.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_D:\Users\Administrator\Desktop\golf_13-03\3\2309.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kids scissor school work</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>288</xmin>
+			<ymin>364</ymin>
+			<xmax>740</xmax>
+			<ymax>615</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Rosdee pork 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>612</ymin>
+			<xmax>873</xmax>
+			<ymax>994</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pentel soft erasor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>167</xmin>
+			<ymin>640</ymin>
+			<xmax>506</xmax>
+			<ymax>855</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Parrot herbel organic pink 70g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>270</xmin>
+			<ymin>918</ymin>
+			<xmax>585</xmax>
+			<ymax>1188</ymax>
+		</bndbox>
+	</object>
+</annotation>

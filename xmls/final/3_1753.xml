@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1753.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\Work\PIM\DeepLearning\data1\0\1753.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ferrero 37.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>350</xmin>
+			<ymin>1121</ymin>
+			<xmax>782</xmax>
+			<ymax>1789</ymax>
+		</bndbox>
+	</object>
+</annotation>

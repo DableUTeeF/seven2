@@ -1,0 +1,74 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_828.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_828.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Corifine C 14.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>728</xmin>
+			<ymin>239</ymin>
+			<xmax>1080</xmax>
+			<ymax>971</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Baygon Lavender 12 coils</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>294</xmin>
+			<ymin>168</ymin>
+			<xmax>786</xmax>
+			<ymax>767</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lotte xylitol fresh mint 11.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>581</xmin>
+			<ymin>972</ymin>
+			<xmax>968</xmax>
+			<ymax>1559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pocky cookie and cream 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>1071</ymin>
+			<xmax>532</xmax>
+			<ymax>1601</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Clorets berry mint 33.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>748</ymin>
+			<xmax>603</xmax>
+			<ymax>1220</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,62 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1961.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1961.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Dentyne splash straw 15.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>630</xmin>
+			<ymin>780</ymin>
+			<xmax>1031</xmax>
+			<ymax>1334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Losan milk 28g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>782</ymin>
+			<xmax>530</xmax>
+			<ymax>1424</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Amira_blue</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>576</xmin>
+			<ymin>1463</ymin>
+			<xmax>1057</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Benice 90ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>1671</ymin>
+			<xmax>503</xmax>
+			<ymax>1913</ymax>
+		</bndbox>
+	</object>
+</annotation>

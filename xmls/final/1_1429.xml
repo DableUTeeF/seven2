@@ -1,0 +1,26 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_1429.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\1429.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Vaseline healthy white 75g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>271</xmin>
+			<ymin>687</ymin>
+			<xmax>734</xmax>
+			<ymax>1278</ymax>
+		</bndbox>
+	</object>
+</annotation>

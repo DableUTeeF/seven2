@@ -1,0 +1,38 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>3_2566.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\Chief Engineer\Desktop\New folder\2566.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Fruit mania pitted red dates 60g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>338</xmin>
+			<ymin>134</ymin>
+			<xmax>989</xmax>
+			<ymax>973</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sharpie permanent marker 2CT</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>390</xmin>
+			<ymin>1189</ymin>
+			<xmax>1080</xmax>
+			<ymax>1458</ymax>
+		</bndbox>
+	</object>
+</annotation>

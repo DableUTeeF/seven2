@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2031.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_2031.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Euro cake custard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>1103</ymin>
+			<xmax>485</xmax>
+			<ymax>1326</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Scotch packing tape 48mmx40m</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>619</xmin>
+			<ymin>995</ymin>
+			<xmax>1061</xmax>
+			<ymax>1456</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>G-soft blue pen</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>755</ymin>
+			<xmax>828</xmax>
+			<ymax>977</ymax>
+		</bndbox>
+	</object>
+</annotation>

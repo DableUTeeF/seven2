@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_558.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\558.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ichitan Green Tea Lemon 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>1139</ymin>
+			<xmax>716</xmax>
+			<ymax>1398</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mirinda orange 440ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>816</ymin>
+			<xmax>801</xmax>
+			<ymax>1083</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>7 select mineral 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>151</xmin>
+			<ymin>1487</ymin>
+			<xmax>736</xmax>
+			<ymax>1788</ymax>
+		</bndbox>
+	</object>
+</annotation>

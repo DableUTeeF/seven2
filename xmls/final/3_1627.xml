@@ -1,0 +1,50 @@
+<annotation>
+	<folder>0</folder>
+	<filename>3_1627.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_E:\Work\PIM\DeepLearning\data1\0\1627.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Break 23.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>448</xmin>
+			<ymin>1098</ymin>
+			<xmax>965</xmax>
+			<ymax>1426</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>1106</ymin>
+			<xmax>391</xmax>
+			<ymax>1592</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Take-it Black</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>472</ymin>
+			<xmax>325</xmax>
+			<ymax>972</ymax>
+		</bndbox>
+	</object>
+</annotation>

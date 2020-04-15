@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_2281.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_2281.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Koko_krunch_cup 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>79</ymin>
+			<xmax>846</xmax>
+			<ymax>801</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>3_2508.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\Chief Engineer\Desktop\New folder\2508.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Me-O Tuna in jelly can 80g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>358</xmin>
+			<ymin>1320</ymin>
+			<xmax>609</xmax>
+			<ymax>1608</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Brasso 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>754</xmin>
+			<ymin>1091</ymin>
+			<xmax>1080</xmax>
+			<ymax>1603</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffell natural spray 30ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>1015</ymin>
+			<xmax>469</xmax>
+			<ymax>1354</ymax>
+		</bndbox>
+	</object>
+</annotation>

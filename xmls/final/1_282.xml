@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_282.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\282.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Moccona Trio Espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>335</ymin>
+			<xmax>635</xmax>
+			<ymax>693</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Khao shong 3 in 1 espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>166</xmin>
+			<ymin>746</ymin>
+			<xmax>541</xmax>
+			<ymax>1289</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio Gold 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>530</xmin>
+			<ymin>686</ymin>
+			<xmax>1039</xmax>
+			<ymax>1285</ymax>
+		</bndbox>
+	</object>
+</annotation>

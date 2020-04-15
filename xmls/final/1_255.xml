@@ -1,0 +1,74 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_255.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\255.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Milo serials box 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>720</ymin>
+			<xmax>483</xmax>
+			<ymax>1093</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Super coffee 3 in 1 60g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>356</xmin>
+			<ymin>257</ymin>
+			<xmax>782</xmax>
+			<ymax>788</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Koko_krunch_cup 30g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>550</xmin>
+			<ymin>750</ymin>
+			<xmax>964</xmax>
+			<ymax>1168</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kellogg's corn flakes 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>479</ymin>
+			<xmax>376</xmax>
+			<ymax>770</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Koko_krunch_box_25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>339</xmin>
+			<ymin>1111</ymin>
+			<xmax>593</xmax>
+			<ymax>1357</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2101.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\TON\Desktop\3\2101.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>G-soft blue pen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>273</ymin>
+			<xmax>705</xmax>
+			<ymax>824</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Baby mild sweety pink 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>405</xmin>
+			<ymin>608</ymin>
+			<xmax>905</xmax>
+			<ymax>960</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>TD protractor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>1120</ymin>
+			<xmax>813</xmax>
+			<ymax>1360</ymax>
+		</bndbox>
+	</object>
+</annotation>

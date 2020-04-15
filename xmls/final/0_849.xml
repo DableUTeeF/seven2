@@ -1,0 +1,62 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_849.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_849.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Lush 22.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>1018</ymin>
+			<xmax>730</xmax>
+			<ymax>1622</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Blue Goose 13 (lol) 12 coils</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>249</ymin>
+			<xmax>837</xmax>
+			<ymax>910</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Oreo original 29.4g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>959</ymin>
+			<xmax>307</xmax>
+			<ymax>1329</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Lotion flora 8ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>228</xmin>
+			<ymin>757</ymin>
+			<xmax>396</xmax>
+			<ymax>1019</ymax>
+		</bndbox>
+	</object>
+</annotation>

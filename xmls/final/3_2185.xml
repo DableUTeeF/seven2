@@ -1,0 +1,38 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2185.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\Users\TON\Desktop\3\2185.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Uhu glues 8.2g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>487</xmin>
+			<ymin>476</ymin>
+			<xmax>871</xmax>
+			<ymax>1238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Staedtler eraser 2 pieces</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>299</xmin>
+			<ymin>652</ymin>
+			<xmax>495</xmax>
+			<ymax>1170</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,62 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_164.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_164.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Khao shong 3 in 1 espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>252</xmin>
+			<ymin>183</ymin>
+			<xmax>618</xmax>
+			<ymax>886</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio Espresso 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>1057</ymin>
+			<xmax>668</xmax>
+			<ymax>1883</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio rich and smooth 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>700</ymin>
+			<xmax>241</xmax>
+			<ymax>1314</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Khao shong 3 in 1 super rich 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>565</xmin>
+			<ymin>692</ymin>
+			<xmax>1080</xmax>
+			<ymax>1665</ymax>
+		</bndbox>
+	</object>
+</annotation>

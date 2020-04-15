@@ -1,0 +1,62 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_431.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_431.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nescafe espresso roast can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1166</ymin>
+			<xmax>490</xmax>
+			<ymax>1416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Birdy robusta can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>778</ymin>
+			<xmax>812</xmax>
+			<ymax>1145</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>United Almond 19g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>288</xmin>
+			<ymin>1459</ymin>
+			<xmax>1077</xmax>
+			<ymax>1769</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jolly cola 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>739</ymin>
+			<xmax>246</xmax>
+			<ymax>1169</ymax>
+		</bndbox>
+	</object>
+</annotation>

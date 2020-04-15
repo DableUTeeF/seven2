@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_484.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_484.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ichitan Green Tea Genmai 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>1268</ymin>
+			<xmax>1058</xmax>
+			<ymax>1761</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ichitan Green Tea Original 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>49</xmin>
+			<ymin>607</ymin>
+			<xmax>815</xmax>
+			<ymax>1077</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ichitan Green Tea Lemon 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>803</ymin>
+			<xmax>230</xmax>
+			<ymax>1617</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1628.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1628.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nescafe espresso roast can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>1551</ymin>
+			<xmax>625</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fun-o custard 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>477</xmin>
+			<ymin>671</ymin>
+			<xmax>851</xmax>
+			<ymax>1441</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fun-o power 50g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>220</xmin>
+			<ymin>701</ymin>
+			<xmax>476</xmax>
+			<ymax>1399</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_2219.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_2219.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Clorets berry mint 33.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>1276</ymin>
+			<xmax>555</xmax>
+			<ymax>1856</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Clorets lemon mint 33.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>642</xmin>
+			<ymin>1366</ymin>
+			<xmax>1073</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Vaseline healthy white 75g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>817</ymin>
+			<xmax>716</xmax>
+			<ymax>1131</ymax>
+		</bndbox>
+	</object>
+</annotation>

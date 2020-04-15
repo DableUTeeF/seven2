@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1925.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1925.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Me-O tuna and chicken in jelly 80g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>800</ymin>
+			<xmax>439</xmax>
+			<ymax>1390</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Dettol original 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>521</xmin>
+			<ymin>1043</ymin>
+			<xmax>882</xmax>
+			<ymax>1577</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Baby mild ultra mild 125ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>195</xmin>
+			<ymin>1701</ymin>
+			<xmax>596</xmax>
+			<ymax>1919</ymax>
+		</bndbox>
+	</object>
+</annotation>

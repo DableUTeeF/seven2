@@ -1,0 +1,62 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_2070.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_2070.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Dettol original 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>151</xmin>
+			<ymin>847</ymin>
+			<xmax>413</xmax>
+			<ymax>1129</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Protex propolis 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>827</ymin>
+			<xmax>815</xmax>
+			<ymax>1113</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Shokubutsu ginkgo 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>598</xmin>
+			<ymin>393</ymin>
+			<xmax>791</xmax>
+			<ymax>798</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel fresh 80ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>662</ymin>
+			<xmax>527</xmax>
+			<ymax>851</ymax>
+		</bndbox>
+	</object>
+</annotation>

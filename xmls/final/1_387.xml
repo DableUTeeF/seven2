@@ -1,0 +1,38 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_387.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_387.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>7 select mineral 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>599</ymin>
+			<xmax>538</xmax>
+			<ymax>1198</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>7 select cooly fresh 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1311</ymin>
+			<xmax>752</xmax>
+			<ymax>1591</ymax>
+		</bndbox>
+	</object>
+</annotation>

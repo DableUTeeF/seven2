@@ -1,0 +1,74 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_1604.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_1604.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Take-it Red</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>542</xmin>
+			<ymin>711</ymin>
+			<xmax>861</xmax>
+			<ymax>974</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat red 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>663</xmin>
+			<ymin>1096</ymin>
+			<xmax>982</xmax>
+			<ymax>1447</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat red 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>346</xmin>
+			<ymin>1251</ymin>
+			<xmax>582</xmax>
+			<ymax>1581</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Take-it Black</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>1026</ymin>
+			<xmax>370</xmax>
+			<ymax>1209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Kitkat green tea 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>892</ymin>
+			<xmax>553</xmax>
+			<ymax>1166</ymax>
+		</bndbox>
+	</object>
+</annotation>

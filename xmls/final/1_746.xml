@@ -1,0 +1,74 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_746.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\746.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Clorets Original Mint Gum</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>648</xmin>
+			<ymin>840</ymin>
+			<xmax>814</xmax>
+			<ymax>1253</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Clorets lemon mint 33.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>111</xmin>
+			<ymin>1525</ymin>
+			<xmax>315</xmax>
+			<ymax>1885</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fisherman's Friend Citrus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>1086</ymin>
+			<xmax>521</xmax>
+			<ymax>1584</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Wrigley's Doublemint</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>1075</ymin>
+			<xmax>170</xmax>
+			<ymax>1371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Strepsil Cool (6 tablets)</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>227</xmin>
+			<ymin>501</ymin>
+			<xmax>557</xmax>
+			<ymax>910</ymax>
+		</bndbox>
+	</object>
+</annotation>

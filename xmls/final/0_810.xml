@@ -1,0 +1,74 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_810.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_810.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Soffel fresh 80ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>717</xmin>
+			<ymin>576</ymin>
+			<xmax>1080</xmax>
+			<ymax>1085</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Hacks regular 18.9g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>570</ymin>
+			<xmax>739</xmax>
+			<ymax>1129</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Daiwa dishwashing liquid lemon 160ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>901</ymin>
+			<xmax>381</xmax>
+			<ymax>1195</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel Flora 80ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>497</xmin>
+			<ymin>1127</ymin>
+			<xmax>724</xmax>
+			<ymax>1764</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lypon-F 150ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>370</ymin>
+			<xmax>564</xmax>
+			<ymax>634</ymax>
+		</bndbox>
+	</object>
+</annotation>

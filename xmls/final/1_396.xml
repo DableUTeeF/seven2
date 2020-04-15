@@ -1,0 +1,38 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_396.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_396.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nescafe espresso roast can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>351</xmin>
+			<ymin>1164</ymin>
+			<xmax>739</xmax>
+			<ymax>1513</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Birdy robusta can 180ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>932</ymin>
+			<xmax>496</xmax>
+			<ymax>1165</ymax>
+		</bndbox>
+	</object>
+</annotation>

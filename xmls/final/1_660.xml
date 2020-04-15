@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_660.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_E:\Work\PIM\DeepLearning\data1\1\660.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Morr Milk Flavored Milk Tablet 15g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>498</xmin>
+			<ymin>900</ymin>
+			<xmax>928</xmax>
+			<ymax>1250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Roscella Milk tablet Chocolate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>1268</ymin>
+			<xmax>743</xmax>
+			<ymax>1732</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Roscella Milk tablet Original</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>927</ymin>
+			<xmax>478</xmax>
+			<ymax>1242</ymax>
+		</bndbox>
+	</object>
+</annotation>

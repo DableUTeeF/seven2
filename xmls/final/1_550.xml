@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_550.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_550.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>C-vit lemon 140 ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>271</xmin>
+			<ymin>981</ymin>
+			<xmax>928</xmax>
+			<ymax>1265</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Yenyen Red 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>334</xmin>
+			<ymin>1</ymin>
+			<xmax>882</xmax>
+			<ymax>867</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Yenyen Yellow 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>1386</ymin>
+			<xmax>1044</xmax>
+			<ymax>1861</ymax>
+		</bndbox>
+	</object>
+</annotation>

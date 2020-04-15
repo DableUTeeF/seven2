@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1835.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1835.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Khao shong 3 in 1 super rich 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>604</ymin>
+			<xmax>579</xmax>
+			<ymax>1318</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Milo serials box 25g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>540</xmin>
+			<ymin>983</ymin>
+			<xmax>1060</xmax>
+			<ymax>1544</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>C-vit lemon 140 ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1587</ymin>
+			<xmax>500</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+</annotation>

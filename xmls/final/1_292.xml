@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_292.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_292.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Khao shong 3 in 1 super rich 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>352</xmin>
+			<ymin>700</ymin>
+			<xmax>1035</xmax>
+			<ymax>1270</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio rich and smooth 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>361</xmin>
+			<ymin>1232</ymin>
+			<xmax>958</xmax>
+			<ymax>1857</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Nescafe_blend'nbrew_espresso_157.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>354</xmin>
+			<ymin>61</ymin>
+			<xmax>1060</xmax>
+			<ymax>709</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_2598.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_2598.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nescafe_blend'nbrew_rich_aroma_157.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>191</ymin>
+			<xmax>866</xmax>
+			<ymax>1356</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1499.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1499.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kitkat red 35g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>601</xmin>
+			<ymin>608</ymin>
+			<xmax>1009</xmax>
+			<ymax>1220</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio rich and smooth 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>302</xmin>
+			<ymin>1231</ymin>
+			<xmax>987</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lotte xylitol lime mint 11.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>637</ymin>
+			<xmax>532</xmax>
+			<ymax>1119</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1874.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1874.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Khao shong 3 in 1 super rich 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>388</xmin>
+			<ymin>482</ymin>
+			<xmax>882</xmax>
+			<ymax>1381</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Sponser original 250ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>1383</ymin>
+			<xmax>622</xmax>
+			<ymax>1916</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>C-vit lemon 140 ml</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>683</xmin>
+			<ymin>1457</ymin>
+			<xmax>1072</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+</annotation>

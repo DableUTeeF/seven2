@@ -1,0 +1,62 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_190.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_190.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Pocky chocolate 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>523</xmin>
+			<ymin>1148</ymin>
+			<xmax>1080</xmax>
+			<ymax>1661</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lay_ori_27g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>296</ymin>
+			<xmax>625</xmax>
+			<ymax>1114</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pocky cookie and cream 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>880</ymin>
+			<xmax>300</xmax>
+			<ymax>1469</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pocky macha 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>1573</ymin>
+			<xmax>673</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+</annotation>

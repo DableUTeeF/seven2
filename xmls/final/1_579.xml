@@ -1,0 +1,50 @@
+<annotation>
+	<folder>1</folder>
+	<filename>1_579.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/1_579.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mirinda orange 440ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>345</xmin>
+			<ymin>770</ymin>
+			<xmax>939</xmax>
+			<ymax>1215</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>7 select cooly fresh 350ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>1406</ymin>
+			<xmax>555</xmax>
+			<ymax>1684</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ichitan Green Tea Lemon 420ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>997</ymin>
+			<xmax>659</xmax>
+			<ymax>1413</ymax>
+		</bndbox>
+	</object>
+</annotation>

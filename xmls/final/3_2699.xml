@@ -1,0 +1,74 @@
+<annotation>
+	<folder>3</folder>
+	<filename>3_2699.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/3_C:\project711\golf_13-03\3\2699.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Baby mild ultra mild 125ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>491</xmin>
+			<ymin>970</ymin>
+			<xmax>830</xmax>
+			<ymax>1302</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Benice 90ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>50</xmin>
+			<ymin>549</ymin>
+			<xmax>276</xmax>
+			<ymax>922</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Shokubutsu chinese milk 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>666</xmin>
+			<ymin>424</ymin>
+			<xmax>899</xmax>
+			<ymax>897</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel lotion fresh 60ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>179</xmin>
+			<ymin>978</ymin>
+			<xmax>465</xmax>
+			<ymax>1251</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Shokubutsu ginkgo 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>388</xmin>
+			<ymin>534</ymin>
+			<xmax>628</xmax>
+			<ymax>944</ymax>
+		</bndbox>
+	</object>
+</annotation>

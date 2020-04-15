@@ -1,0 +1,62 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1852.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1852.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sponser original 250ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>472</xmin>
+			<ymin>623</ymin>
+			<xmax>654</xmax>
+			<ymax>998</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cream o vanila 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>565</xmin>
+			<ymin>1046</ymin>
+			<xmax>730</xmax>
+			<ymax>1473</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Fun-o custard 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>314</xmin>
+			<ymin>1102</ymin>
+			<xmax>472</xmax>
+			<ymax>1537</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pocky strawberry 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>823</ymin>
+			<xmax>473</xmax>
+			<ymax>1091</ymax>
+		</bndbox>
+	</object>
+</annotation>

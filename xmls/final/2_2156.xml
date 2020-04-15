@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_2156.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_2156.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Dettol pro fresh 65g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>414</xmin>
+			<ymin>644</ymin>
+			<xmax>853</xmax>
+			<ymax>1058</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Amira_blue</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>1325</ymin>
+			<xmax>1073</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Soffel lotion fresh 60ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>170</xmin>
+			<ymin>1226</ymin>
+			<xmax>430</xmax>
+			<ymax>1664</ymax>
+		</bndbox>
+	</object>
+</annotation>

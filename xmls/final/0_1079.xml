@@ -1,0 +1,38 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_1079.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_1079.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Hand!!!!</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>322</ymin>
+			<xmax>313</xmax>
+			<ymax>845</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Shokubutsu chinese milk 100ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>732</ymin>
+			<xmax>868</xmax>
+			<ymax>1187</ymax>
+		</bndbox>
+	</object>
+</annotation>

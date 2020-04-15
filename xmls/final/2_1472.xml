@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1472.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1472.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sugus green 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>174</xmin>
+			<ymin>784</ymin>
+			<xmax>618</xmax>
+			<ymax>1269</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio Gold 100g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>1419</ymin>
+			<xmax>915</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Lotte xylitol lime mint 11.6g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>612</xmin>
+			<ymin>743</ymin>
+			<xmax>1036</xmax>
+			<ymax>1313</ymax>
+		</bndbox>
+	</object>
+</annotation>

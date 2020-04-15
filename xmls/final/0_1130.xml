@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0_1130.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/0_1130.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Head and shoulder shampoo pink 150 ml</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>403</xmin>
+			<ymin>446</ymin>
+			<xmax>806</xmax>
+			<ymax>1425</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>2</folder>
+	<filename>2_1518.jpg</filename>
+	<path>/home/palm/PycharmProjects/seven/data1/2_1518.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1920</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sugus red 45g</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>595</xmin>
+			<ymin>899</ymin>
+			<xmax>1080</xmax>
+			<ymax>1334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ferrero 62.5g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>686</ymin>
+			<xmax>859</xmax>
+			<ymax>880</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Moccona Trio rich and smooth 90g</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>881</ymin>
+			<xmax>547</xmax>
+			<ymax>1348</ymax>
+		</bndbox>
+	</object>
+</annotation>
