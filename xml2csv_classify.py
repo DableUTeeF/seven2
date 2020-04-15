@@ -14,10 +14,9 @@ if __name__ == '__main__':
     classes = []
     trainset = []
     testset = []
-    images_base_path = '/home/palm/PycharmProjects/seven/data1'
+    images_base_path = 'images/'
     with open('anns/annotation.csv', 'w') as wr:
         for set_name in [0, 1, 2, 3]:
-            folder = f'images/{set_name}'
             path = f'./xmls/readjusted/{set_name}'
             for file in os.listdir(path):
                 val = False

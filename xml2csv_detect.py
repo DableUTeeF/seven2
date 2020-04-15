@@ -5,10 +5,9 @@ import os
 if __name__ == '__main__':
     open('anns/c.csv', 'w')
     classes = []
-    images_base_path = '/home/palm/PycharmProjects/seven/data1'
+    images_base_path = 'images/'
     with open('anns/ann.csv', 'w') as wr:
         for set_name in [0, 1, 2, 3]:
-            folder = f'./images/{set_name}'
             path = f'./xmls/revised/{set_name}'
             for file in os.listdir(path):
                 tree = ET.parse(os.path.join(path, file))
