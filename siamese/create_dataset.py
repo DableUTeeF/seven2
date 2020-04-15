@@ -15,7 +15,7 @@ if __name__ == '__main__':
                                                                                       './anns/classes.csv',
                                                                                       )
     save_path = './images/cropped'
-    for instance in valid_ints:
+    for instance in train_ints:
         image = cv2.imread(instance['filename'])
         for idx, obj in enumerate(instance['object']):
             x1 = max(0, obj['xmin'])
