@@ -2,12 +2,6 @@ from xml.etree import cElementTree as ET
 import os
 
 
-# bad_img = [os.path.basename(x).split('_')[0] for x in open('/home/palm/PycharmProjects/tops/anns/bad_img.txt').read().split('\n')[:-1]]
-def check_bad(file):
-    return False
-    x = os.path.basename(file)[:-4]
-    return x in bad_img
-
 if __name__ == '__main__':
     open('anns/val_ann.csv', 'w')
     open('anns/classes.csv', 'w')
