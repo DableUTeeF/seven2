@@ -17,7 +17,6 @@ model_urls = {
 
 
 def pairwise_distance(x, y):
-    print(x.shape)
     dists = -2 * torch.mm(x, y.t()) + torch.sum(y ** 2, dim=1) + torch.sum(x ** 2, dim=1).unsqueeze(1)
     return dists
 

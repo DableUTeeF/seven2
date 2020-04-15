@@ -53,5 +53,6 @@ if __name__ == '__main__':
     h = model.fit_generator(train_generator, 20,
                             schedule=[10, 15],
                             tensorboard=f'logs/pair/{len(os.listdir("logs/pair"))}',
-                            epoch_end=model.checkpoint(f'./snapshots/pairs', 'ContrastiveLoss'), step=1000000)
+                            epoch_end=model.checkpoint(f'./snapshots/pairs', 'ContrastiveLoss'),
+                            step=1000000)
     model.save_weights('./snapshots/recognizer.pth')
